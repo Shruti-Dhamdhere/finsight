@@ -1,0 +1,200 @@
+{
+  "ticker": "NTDOY",
+  "company_name": "Nintendo Co., Ltd.",
+  "current_price": 14.06,
+  "signals": {
+    "financial": "BULLISH",
+    "sentiment": "NEUTRAL",
+    "technical": "NEUTRAL",
+    "sec": "NEUTRAL"
+  },
+  "recommendation": {
+    "recommendation": "HOLD",
+    "confidence_score": 0.45,
+    "price_target_upside": "149% upside from current price",
+    "investment_horizon": "medium-term",
+    "thesis": "Nintendo presents an intriguing deep value setup trading at a forward P/E of 6.57 with analyst targets implying 149% upside, but significant execution risk clouds the picture. The company maintains strong profitability metrics and is diversifying revenue through movies and merchandising, yet severe recent underperformance, high volatility, and data quality concerns prevent a conviction buy rating. A HOLD allows monitoring of earnings trajectory and technical confirmation while avoiding exposure to what may be a value trap without clear near-term catalysts.",
+    "bull_case": "If Nintendo successfully executes its content expansion strategy and next-generation hardware cycle materializes, the extremely compressed forward valuation could drive substantial multiple re-rating toward historical averages. Strong margin profile and pricing power provide a foundation for earnings acceleration that analysts are clearly anticipating, potentially delivering the projected 149% upside.",
+    "bear_case": "The 24.55% underperformance versus market suggests fundamental deterioration that may not be fully reflected even at current depressed levels, particularly if hardware transition disappoints or memory chip shortages persist. Data quality issues raise red flags about transparency, while 34% volatility and failure to hold technical support could signal further downside toward $12 or below.",
+    "key_catalysts": [
+      "Successful launch and adoption metrics for next-generation gaming hardware platform",
+      "Box office performance and revenue contribution from expanded movie/entertainment partnerships",
+      "Resolution of memory chip supply chain constraints improving hardware margins and availability"
+    ],
+    "key_risks": [
+      "Continued hardware cycle maturity leading to unit sales and pricing pressure without compelling replacement catalyst",
+      "Data quality and financial transparency concerns potentially masking deeper operational issues",
+      "High volatility environment with technical breakdown below $13.50 (200-day SMA support) triggering accelerated selling"
+    ],
+    "position_sizing": "small position - The asymmetric risk/reward is attractive but elevated uncertainty around data quality, lack of near-term catalysts, and significant underperformance warrant conservative sizing of 1-2% portfolio weight maximum until technical confirmation above $15.72 or fundamental clarity emerges"
+  },
+  "agent_results": {
+    "financial": {
+      "ticker": "NTDOY",
+      "raw_data": {
+        "ticker": "NTDOY",
+        "company": {
+          "name": "Nintendo Co., Ltd.",
+          "sector": "Communication Services",
+          "industry": "Electronic Gaming & Multimedia",
+          "country": "Japan",
+          "employees": 8205,
+          "description": "Nintendo Co., Ltd., together with its subsidiaries, develops, manufactures, and sells home entertainment products in Japan, the Americas, Europe, and internationally. It offers home console gaming hardware, software, accessories, and other products. The company also provides various services, such as Nintendo Switch Online; and services and content. In addition, it offers develop IP, including video content and mobile apps. The company was formerly known as Nintendo Playing Card Co., Ltd. and ch"
+        },
+        "financials": {
+          "current_price": 14.06,
+          "day_change_pct": -0.99,
+          "market_cap": 65922977792,
+          "pe_ratio": 27.568628,
+          "forward_pe": 6.570093,
+          "eps": 0.51,
+          "revenue": 2114586935296,
+          "revenue_growth": 0.863,
+          "gross_margins": 0.40533,
+          "profit_margins": 0.18938999,
+          "debt_to_equity": "N/A",
+          "return_on_equity": 0.14130001,
+          "free_cashflow": "N/A",
+          "dividend_yield": 1.53,
+          "52_week_high": 24.92,
+          "52_week_low": 13.47,
+          "analyst_target_price": 35.0,
+          "recommendation": "none"
+        },
+        "performance": {
+          "1_week": 0.36,
+          "1_month": -13.64,
+          "1_year": -24.55
+        },
+        "volatility_annualized_pct": 34.06,
+        "benchmark_1yr_return": 18.63,
+        "price_history": "                                Open       High        Low      Close   Volume  Dividends  Stock Splits\nDate                                                                                                   \n2024-02-28 00:00:00-05:00  13.608499  13.657877  13.559121  13.598624   880400        0.0           0.0\n2024-02-29 00:00:00-05:00  13.736882  13.825762  13.717132  13.736882  1060600        0.0           0.0\n2024-03-01 00:00:00-05:00  13.786259  13.894889  13.786259  13.865263  1208600        0.0           0.0\n2024-03-04 00:00:00-05:00  13.657877  13.687503  13.588748  13.618375  1421500        0.0           0.0\n2024-03-05 00:00:00-05:00  13.687503  13.776383  13.638126  13.667752   498500        0.0           0.0\n...                              ...        ...        ...        ...      ...        ...           ...\n2026-02-23 00:00:00-05:00  14.030000  14.130000  13.980000  14.010000  2652800        0.0           0.0\n2026-02-24 00:00:00-05:00  13.840000  13.840000  13.680000  13.760000  1481200        0.0           0.0\n2026-02-25 00:00:00-05:00  13.750000  13.800000  13.630000  13.680000  1505200        0.0           0.0\n2026-02-26 00:00:00-05:00  14.000000  14.440000  13.960000  14.200000  2089900        0.0           0.0\n2026-02-27 00:00:00-05:00  14.000000  14.150000  13.670000  14.060000  2639900        0.0           0.0\n\n[502 rows x 7 columns]",
+        "status": "success"
+      },
+      "analysis": {
+        "valuation_assessment": "The stock appears significantly undervalued with a forward P/E of 6.57 versus current P/E of 27.57, suggesting strong earnings growth expectations, and trading near 52-week lows with analyst target of $35 implying 149% upside.",
+        "financial_health_score": "7/10 - Solid profitability with 19% profit margins and 14% ROE, though the reported revenue figure appears to contain a data error and lack of debt/equity and FCF data limits full assessment.",
+        "growth_outlook": "Revenue growth of 86% indicates strong momentum, though sustainability needs verification given data quality concerns and recent significant underperformance versus market.",
+        "key_strengths": [
+          "Strong profit margins of 19% and gross margins of 41% demonstrate pricing power and operational efficiency",
+          "Dramatic improvement in forward P/E (6.57) suggests substantial earnings acceleration expected by analysts",
+          "Trading near 52-week lows with massive analyst price target upside of 149% indicates potential value opportunity"
+        ],
+        "key_concerns": [
+          "Severe underperformance of -24.55% versus SPY's +18.63% over past year indicates significant fundamental or sentiment challenges",
+          "High volatility of 34% annualized suggests elevated risk and potential continued price swings",
+          "Data quality issues (revenue figure anomaly, missing debt/equity and FCF) raise concerns about financial transparency"
+        ],
+        "fundamental_signal": "BULLISH",
+        "fundamental_confidence": 0.65,
+        "analyst_summary": "Nintendo presents a compelling value opportunity trading near 52-week lows with a forward P/E of 6.57 and analyst target implying 149% upside, supported by solid profitability metrics. However, severe recent underperformance, high volatility, and data quality concerns temper conviction. The dramatic compression in forward valuation suggests analysts expect a significant earnings recovery, making this a cautiously bullish setup contingent on fundamental verification."
+      },
+      "financial_summary": "\nCOMPANY: Nintendo Co., Ltd. (NTDOY)\nSECTOR: Communication Services | INDUSTRY: Electronic Gaming & Multimedia\n\nPRICE METRICS:\n- Current Price: $14.06\n- Day Change: -0.99%\n- 52-Week High: 24.92 | Low: 13.47\n- Analyst Target: 35.0\n- Analyst Recommendation: none\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: 0.36% \n- 1 Month: -13.64%\n- 1 Year: -24.55% vs SPY: 18.63%\n\nVALUATION:\n- Market Cap: $65.9B\n- P/E Ratio: 27.568628\n- Forward P/E: 6.570093\n- EPS: 0.51\n\nFINANCIAL HEALTH:\n- Revenue: $2.1T\n- Revenue Growth: 0.863\n- Gross Margins: 0.40533\n- Profit Margins: 0.18938999\n- Debt/Equity: N/A\n- Return on Equity: 0.14130001\n- Free Cash Flow: N/A\n- Dividend Yield: 1.53\n\nVOLATILITY: 34.06% annualized\n",
+      "status": "success"
+    },
+    "sentiment": {
+      "ticker": "NTDOY",
+      "news_count": 10,
+      "analysis": {
+        "overall_sentiment": "NEUTRAL",
+        "sentiment_score": 0.0,
+        "news_summary": "Nintendo is actively expanding its revenue streams through movie partnerships and merchandising collaborations while facing headwinds from memory chip shortages and significant share sales by strategic holders. The company's stock has experienced a notable decline, attracting value-focused investor interest amid hardware profitability concerns.",
+        "positive_catalysts": [
+          "Super Mario Galaxy Movie theatrical release expanding multi-channel entertainment revenue",
+          "Fisher-Price collaboration expanding merchandising reach into toddler market",
+          "Wall Street insiders reportedly buying shares after 50%+ decline from highs",
+          "Potential valuation opportunity after recent share price slide"
+        ],
+        "negative_risks": [
+          "$1.9 billion share sale by major strategic holders including MUFG Bank and Bank of Kyoto",
+          "Memory chip shortage impacting profitability and hardware production",
+          "Share price slump due to DRAM supply constraints affecting console makers",
+          "Hardware risks despite strong gaming demand from GTA VI and other titles"
+        ],
+        "media_tone": "Media coverage is mixed, highlighting Nintendo's strategic content expansion and merchandising initiatives while emphasizing significant concerns about chip shortages and strategic shareholder exits.",
+        "sentiment_signal": "NEUTRAL",
+        "sentiment_confidence": 0.65
+      },
+      "status": "success"
+    },
+    "technical": {
+      "ticker": "NTDOY",
+      "indicators": {
+        "rsi": 53.97,
+        "macd": {
+          "macd": -0.6051,
+          "signal": -0.7091,
+          "histogram": 0.104
+        },
+        "bollinger_bands": {
+          "upper": 15.63,
+          "middle": 14.26,
+          "lower": 12.88,
+          "position_pct": 42.83
+        },
+        "moving_averages": {
+          "sma_20": 14.26,
+          "sma_50": 15.72,
+          "sma_200": 20.17,
+          "ema_20": 14.42
+        },
+        "volume": {
+          "current": 2639900,
+          "avg_20d": 3171345,
+          "ratio": 0.83
+        },
+        "support_resistance": {
+          "52w_high": 18.95,
+          "52w_low": 13.47
+        },
+        "signals": [
+          {
+            "indicator": "RSI",
+            "signal": "NEUTRAL",
+            "reason": "Neutral at 53.97"
+          },
+          {
+            "indicator": "MACD",
+            "signal": "BULLISH",
+            "reason": "Positive histogram, MACD above signal"
+          },
+          {
+            "indicator": "MA",
+            "signal": "BEARISH",
+            "reason": "Price below 200 SMA, death cross formation"
+          },
+          {
+            "indicator": "BBANDS",
+            "signal": "NEUTRAL",
+            "reason": "Price mid-band (42.83%)"
+          }
+        ],
+        "overall_signal": "NEUTRAL",
+        "bullish_count": 1,
+        "bearish_count": 1,
+        "status": "success"
+      },
+      "analysis": {
+        "trend_assessment": "Price is trading below both the 20-day and 50-day SMAs but above the 200-day SMA, indicating a short-term downtrend within a long-term uptrend recovery.",
+        "momentum_assessment": "Momentum is neutral to slightly positive with RSI at 53.97 in neutral territory and MACD histogram showing early bullish crossover potential at 0.104.",
+        "support_level": 13.47,
+        "resistance_level": 15.72,
+        "technical_signal": "NEUTRAL",
+        "technical_confidence": 0.55,
+        "key_levels_to_watch": [
+          "15.72 (50-day SMA resistance)",
+          "14.26 (20-day SMA immediate resistance)"
+        ],
+        "technical_summary": "NTDOY is in a consolidation phase with mixed signals across timeframes. The stock shows early signs of momentum reversal with MACD histogram turning positive, but remains below key short-term moving averages with below-average volume. A break above the 50-day SMA at 15.72 would confirm bullish momentum, while failure to hold above the 200-day SMA at 20.17 baseline support could signal renewed weakness."
+      },
+      "status": "success"
+    },
+    "rag": {
+      "error": "Could not find SEC CIK for NTDOY",
+      "status": "failed"
+    }
+  },
+  "elapsed_seconds": 41.7,
+  "errors": [],
+  "status": "success"
+}

@@ -1,0 +1,226 @@
+{
+  "ticker": "IBM",
+  "company_name": "International Business Machines Corporation",
+  "current_price": 240.21,
+  "signals": {
+    "financial": "BULLISH",
+    "sentiment": "BEARISH",
+    "technical": "BULLISH",
+    "sec": "BEARISH"
+  },
+  "recommendation": {
+    "recommendation": "HOLD",
+    "confidence_score": 0.45,
+    "price_target_upside": "12% upside from current price",
+    "investment_horizon": "medium-term",
+    "thesis": "IBM presents a conflicted investment profile with improving fundamentals and attractive valuation offset by severe sentiment deterioration and governance concerns. The 21.7% decline following Anthropic's COBOL modernization tool creates existential questions about the mainframe business while technical indicators show extreme oversold conditions. Material weaknesses in financial reporting controls combined with elevated leverage create significant uncertainty that outweighs the near-term mean reversion opportunity, warranting a wait-and-see approach until clarity emerges on both AI disruption impact and internal control remediation.",
+    "bull_case": "Extreme oversold technical conditions (RSI 23.3) combined with 12.2% revenue acceleration and strong cash generation ($13.2B FCF) suggest the market has overreacted to the Anthropic threat, creating an attractive entry point for patient capital. The stock trades at a meaningful discount to analyst targets with 58% gross margins and improving cloud/AI momentum that could drive multiple expansion once sentiment stabilizes.",
+    "bear_case": "The Anthropic Claude Code launch represents a genuine existential threat to IBM's high-margin mainframe business, validating the market's 25-year record single-day drop and suggesting further downside as enterprise customers accelerate modernization away from legacy systems. Material weaknesses in financial reporting controls combined with 197% debt-to-equity ratio create compounding risks that could lead to further derating and potential dividend cut if business deterioration continues.",
+    "key_catalysts": [
+      "Management clarity on mainframe business resilience and competitive response to AI-driven COBOL modernization tools",
+      "Remediation timeline and progress on material weaknesses in internal financial controls",
+      "Q1 earnings report demonstrating sustained cloud/AI revenue growth despite competitive pressures"
+    ],
+    "key_risks": [
+      "Accelerated customer migration away from mainframe systems due to AI-enabled modernization tools eroding core profit engine",
+      "Material weaknesses in financial reporting controls leading to restatements or audit qualification",
+      "Elevated 197% debt-to-equity ratio limiting financial flexibility during business model transition"
+    ],
+    "position_sizing": "small position with reasoning: The conflicted signals (2 bullish, 2 bearish) combined with material internal control weaknesses and existential business model questions warrant only defensive exposure. Extreme technical oversold conditions justify a small tactical position for mean reversion, but governance concerns and AI disruption risks prevent conviction sizing until greater clarity emerges on both operational trajectory and control environment remediation."
+  },
+  "agent_results": {
+    "financial": {
+      "ticker": "IBM",
+      "raw_data": {
+        "ticker": "IBM",
+        "company": {
+          "name": "International Business Machines Corporation",
+          "sector": "Technology",
+          "industry": "Information Technology Services",
+          "country": "United States",
+          "employees": 264300,
+          "description": "International Business Machines Corporation, together with its subsidiaries, provides integrated solutions and services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through Software, Consulting, Infrastructure, and Financing segments. The Software segment offers hybrid cloud and AI platforms that allow clients to realize their digital and AI transformations across the applications, data, and environments in which they operate. The Consulting segment deliver"
+        },
+        "financials": {
+          "current_price": 240.21,
+          "day_change_pct": -0.74,
+          "market_cap": 224532758528,
+          "pe_ratio": 21.543499,
+          "forward_pe": 17.90178,
+          "eps": 11.15,
+          "revenue": 67534999552,
+          "revenue_growth": 0.122,
+          "gross_margins": 0.58186,
+          "profit_margins": 0.15685001,
+          "debt_to_equity": 197.328,
+          "return_on_equity": 0.35158002,
+          "free_cashflow": 13156625408,
+          "dividend_yield": 2.8,
+          "52_week_high": 324.9,
+          "52_week_low": 214.5,
+          "analyst_target_price": 321.9458,
+          "recommendation": "buy"
+        },
+        "performance": {
+          "1_week": 7.55,
+          "1_month": -21.88,
+          "1_year": -2.78
+        },
+        "volatility_annualized_pct": 29.7,
+        "benchmark_1yr_return": 18.63,
+        "price_history": "                                 Open        High         Low       Close    Volume  Dividends  Stock Splits\nDate                                                                                                        \n2024-02-28 00:00:00-05:00  174.290405  174.988954  173.270885  174.922882   3216300        0.0           0.0\n2024-02-29 00:00:00-05:00  175.725288  176.386098  174.347059  174.668015   6458500        0.0           0.0\n2024-03-01 00:00:00-05:00  175.102234  177.830389  174.809583  177.660461   4018400        0.0           0.0\n2024-03-04 00:00:00-05:00  177.245098  183.041246  177.094069  182.248291   7938300        0.0           0.0\n2024-03-05 00:00:00-05:00  181.247673  183.079032  179.897762  181.200470   5653600        0.0           0.0\n...                               ...         ...         ...         ...       ...        ...           ...\n2026-02-23 00:00:00-05:00  254.369995  255.190002  220.720001  223.350006  19522900        0.0           0.0\n2026-02-24 00:00:00-05:00  227.800003  236.589996  223.630005  229.320007  13379800        0.0           0.0\n2026-02-25 00:00:00-05:00  233.220001  239.550003  231.220001  237.539993   8569700        0.0           0.0\n2026-02-26 00:00:00-05:00  239.710007  247.490005  238.949997  242.009995   7343100        0.0           0.0\n2026-02-27 00:00:00-05:00  238.070007  240.210007  234.570007  240.210007   6631100        0.0           0.0\n\n[502 rows x 7 columns]",
+        "status": "success"
+      },
+      "analysis": {
+        "valuation_assessment": "IBM appears moderately undervalued trading at 21.5x trailing P/E and 17.9x forward P/E, with analyst targets implying 34% upside potential.",
+        "financial_health_score": "7 - Strong cash generation ($13.2B FCF) and solid profitability (15.7% margins, 35% ROE) are offset by elevated debt levels (197% D/E ratio).",
+        "growth_outlook": "Revenue growth of 12.2% shows encouraging momentum as IBM's transformation to cloud and AI-driven services gains traction.",
+        "key_strengths": [
+          "Robust free cash flow generation of $13.2B supporting capital returns and deleveraging",
+          "Strong gross margins of 58% and improving operating leverage",
+          "Attractive dividend yield of 2.8% with solid profitability metrics (35% ROE)"
+        ],
+        "key_concerns": [
+          "Significant underperformance versus SPY benchmark (-2.8% vs +18.6% over 1 year)",
+          "Elevated debt-to-equity ratio of 197% creates financial risk and limits flexibility"
+        ],
+        "fundamental_signal": "BULLISH",
+        "fundamental_confidence": 0.72,
+        "analyst_summary": "IBM demonstrates improving fundamentals with solid revenue growth acceleration (12.2%) and strong cash generation, though historically has lagged the broader market. The stock trades at a meaningful discount to analyst targets with attractive valuation multiples, supported by healthy margins and ROE. While the elevated debt load remains a concern, the improving growth trajectory in cloud/AI services and strong free cash flow provide a favorable risk-reward setup for patient investors."
+      },
+      "financial_summary": "\nCOMPANY: International Business Machines Corporation (IBM)\nSECTOR: Technology | INDUSTRY: Information Technology Services\n\nPRICE METRICS:\n- Current Price: $240.21\n- Day Change: -0.74%\n- 52-Week High: 324.9 | Low: 214.5\n- Analyst Target: 321.9458\n- Analyst Recommendation: buy\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: 7.55% \n- 1 Month: -21.88%\n- 1 Year: -2.78% vs SPY: 18.63%\n\nVALUATION:\n- Market Cap: $224.5B\n- P/E Ratio: 21.543499\n- Forward P/E: 17.90178\n- EPS: 11.15\n\nFINANCIAL HEALTH:\n- Revenue: $67.5B\n- Revenue Growth: 0.122\n- Gross Margins: 0.58186\n- Profit Margins: 0.15685001\n- Debt/Equity: 197.328\n- Return on Equity: 0.35158002\n- Free Cash Flow: $13.2B\n- Dividend Yield: 2.8\n\nVOLATILITY: 29.7% annualized\n",
+      "status": "success"
+    },
+    "sentiment": {
+      "ticker": "IBM",
+      "news_count": 10,
+      "analysis": {
+        "overall_sentiment": "NEGATIVE",
+        "sentiment_score": -0.72,
+        "news_summary": "IBM experienced its sharpest single-day stock drop in over 25 years following Anthropic's launch of Claude Code, an AI tool for COBOL modernization that threatens IBM's mainframe business. The stock has declined 21.7% since its last earnings report amid broader market shifts away from tech stocks and growing concerns about AI disruption to traditional IT companies.",
+        "positive_catalysts": [
+          "Some analysts question whether Anthropic's COBOL tool represents an actual threat to IBM's business model",
+          "IBM categorized as a HALO stock potentially less vulnerable to AI disruption by some investors",
+          "Stock showed resilience with +1.88% gain in one recent trading session while broader market fell"
+        ],
+        "negative_risks": [
+          "Anthropic's Claude Code tool directly threatens IBM's lucrative mainframe and COBOL modernization business",
+          "Stock plunged most in 25 years, down 21.7% since last earnings report",
+          "Broader market rotation from tech quality stocks to traditional value creating headwinds",
+          "AI-driven market reordering raising concerns about IBM's competitive positioning",
+          "Technology sector weakness contributing to overall market decline"
+        ],
+        "media_tone": "Media coverage is predominantly negative, focusing on IBM's historic stock decline and existential threats from AI disruption to its core mainframe business.",
+        "sentiment_signal": "BEARISH",
+        "sentiment_confidence": 0.85
+      },
+      "status": "success"
+    },
+    "technical": {
+      "ticker": "IBM",
+      "indicators": {
+        "rsi": 23.3,
+        "macd": {
+          "macd": -15.8031,
+          "signal": -12.9107,
+          "histogram": -2.8923
+        },
+        "bollinger_bands": {
+          "upper": 321.39,
+          "middle": 268.48,
+          "lower": 215.57,
+          "position_pct": 23.29
+        },
+        "moving_averages": {
+          "sma_20": 268.48,
+          "sma_50": 286.74,
+          "sma_200": 277.0,
+          "ema_20": 261.38
+        },
+        "volume": {
+          "current": 6631100,
+          "avg_20d": 7472880,
+          "ratio": 0.89
+        },
+        "support_resistance": {
+          "52w_high": 318.09,
+          "52w_low": 220.72
+        },
+        "signals": [
+          {
+            "indicator": "RSI",
+            "signal": "BULLISH",
+            "reason": "Oversold at 23.3"
+          },
+          {
+            "indicator": "MACD",
+            "signal": "BEARISH",
+            "reason": "Negative histogram, MACD below signal"
+          },
+          {
+            "indicator": "MA",
+            "signal": "NEUTRAL",
+            "reason": "Mixed moving average signals"
+          },
+          {
+            "indicator": "BBANDS",
+            "signal": "NEUTRAL",
+            "reason": "Price mid-band (23.29%)"
+          }
+        ],
+        "overall_signal": "NEUTRAL",
+        "bullish_count": 1,
+        "bearish_count": 1,
+        "status": "success"
+      },
+      "analysis": {
+        "trend_assessment": "IBM is in a clear downtrend with price below all major moving averages (SMA20, SMA50, SMA200) and trading in the lower quarter of its 52-week range.",
+        "momentum_assessment": "Momentum indicators show extreme oversold conditions with RSI at 23.3 and negative MACD divergence, suggesting selling pressure may be exhausting.",
+        "support_level": 220.72,
+        "resistance_level": 268.48,
+        "technical_signal": "BULLISH",
+        "technical_confidence": 0.65,
+        "key_levels_to_watch": [
+          "220.72 (52-week low)",
+          "268.48 (SMA20)"
+        ],
+        "technical_summary": "IBM exhibits severely oversold conditions with RSI at 23.3 and price near 52-week lows, suggesting a potential mean reversion bounce. However, the death cross formation (SMA20 below SMA50) and negative MACD indicate the broader trend remains bearish. The risk/reward favors a tactical long position given extreme oversold readings, but sustained recovery requires reclaiming the 268-270 zone."
+      },
+      "status": "success"
+    },
+    "rag": {
+      "ticker": "IBM",
+      "filings_analyzed": 4,
+      "chunks_indexed": 355,
+      "analysis": {
+        "key_risk_factors": [
+          "Material weaknesses in internal control over financial reporting that could adversely affect ability to record, process, summarize and report financial information",
+          "Potential changes in internal control over financial reporting during reporting periods",
+          "Tax and withholding obligations related to debt instruments that could impact payment obligations"
+        ],
+        "growth_drivers": [
+          "Focus on disclosure controls and procedures evaluation",
+          "Asset management with defined thresholds for subsidiary investments and property holdings"
+        ],
+        "management_tone": "Management appears focused on compliance and control procedures with emphasis on governance and financial reporting effectiveness.",
+        "competitive_position": "Limited competitive information disclosed, with primary focus on subsidiary structure and property definitions rather than market positioning or competitive advantages.",
+        "red_flags": [
+          "Disclosure of significant deficiencies and material weaknesses in internal controls",
+          "Heavy emphasis on control deficiencies suggests potential financial reporting concerns",
+          "Fragmented filing excerpts indicate incomplete disclosure context"
+        ],
+        "positive_signals": [
+          "Systematic evaluation of disclosure controls and procedures",
+          "Defined framework for consolidated net tangible assets and property thresholds"
+        ],
+        "sec_signal": "BEARISH",
+        "sec_confidence": 0.65,
+        "sec_summary": "The SEC filing excerpts reveal concerning emphasis on internal control deficiencies and material weaknesses in financial reporting systems. The fragmented nature of disclosures and focus on control issues rather than operational performance suggests potential governance and reporting challenges. Limited visibility into actual business performance, revenue growth, or competitive positioning further contributes to a cautious assessment."
+      },
+      "status": "success"
+    }
+  },
+  "elapsed_seconds": 62.0,
+  "errors": [],
+  "status": "success"
+}
