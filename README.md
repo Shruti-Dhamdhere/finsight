@@ -1,4 +1,4 @@
-# 📈 FinSight — Autonomous Financial Research Agent
+#  FinSight — Autonomous Financial Research Agent
 
 > Multi-agent AI system that generates institutional-grade investment research briefs for any publicly traded stock in ~60 seconds.
 
@@ -6,13 +6,13 @@
 [![Claude API](https://img.shields.io/badge/Claude-Sonnet%204.5-orange)](https://anthropic.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## 🎯 What It Does
+##  What It Does
 
 Enter any stock ticker → 4 specialized AI agents run in parallel → Get a professional BUY/HOLD/SELL research brief with full reasoning in ~60 seconds.
 
 **Tested on:** AAPL ($264 → BUY, 72% confidence) | NVDA ($177 → BUY, 72%, 48% upside) | TSLA ($402 → HOLD, 65% confidence)
 
-## 🏗️ Architecture
+##  Architecture
 ```
 User Input (ticker)
         ↓
@@ -31,13 +31,13 @@ yfinance  Claude   TA-Lib   ChromaDB
 
 | Agent | Data Source | Signals Generated |
 |-------|------------|-------------------|
-| 🏦 Financial Agent | yfinance | P/E, revenue growth, margins, FCF, ROE |
-| 📰 Sentiment Agent | yfinance news + Claude | News tone, catalysts, risks |
-| 📊 Technical Agent | Price history + TA-Lib | RSI, MACD, Bollinger Bands, MAs |
-| 📋 RAG Agent | SEC EDGAR 10-K/10-Q + ChromaDB | Risk factors, guidance, competition |
-| 🧠 Synthesis Agent | All agent outputs + Claude | Final BUY/HOLD/SELL + investment thesis |
+|  Financial Agent | yfinance | P/E, revenue growth, margins, FCF, ROE |
+|  Sentiment Agent | yfinance news + Claude | News tone, catalysts, risks |
+|  Technical Agent | Price history + TA-Lib | RSI, MACD, Bollinger Bands, MAs |
+|  RAG Agent | SEC EDGAR 10-K/10-Q + ChromaDB | Risk factors, guidance, competition |
+|  Synthesis Agent | All agent outputs + Claude | Final BUY/HOLD/SELL + investment thesis |
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **LLM:** Claude Sonnet 4.5 (Anthropic API)
 - **RAG:** ChromaDB vector database + sentence-transformers (all-MiniLM-L6-v2)
@@ -46,7 +46,7 @@ yfinance  Claude   TA-Lib   ChromaDB
 - **Web UI:** Streamlit
 - **Language:** Python 3.11
 
-## ✨ Key Technical Achievements
+## Key Technical Achievements
 
 - **RAG pipeline** over 200-page SEC 10-K/10-Q filings (245+ ChromaDB chunks per stock)
 - **Multi-agent orchestration** built from first principles — no LangChain
@@ -54,36 +54,8 @@ yfinance  Claude   TA-Lib   ChromaDB
 - **~60 second** end-to-end analysis time
 - **Full reasoning transparency** — every signal traceable to source data
 
-## 🚀 Installation
-```bash
-git clone https://github.com/Shruti-Dhamdhere/finsight.git
-cd finsight
-conda create -n finsight python=3.11 -y
-conda activate finsight
-pip install -r requirements.txt
-```
 
-Create a `.env` file:
-```
-ANTHROPIC_API_KEY=your-anthropic-api-key
-```
-
-## 💻 Usage
-
-**Command Line:**
-```bash
-python main.py AAPL
-python main.py NVDA
-python main.py TSLA
-```
-
-**Web UI:**
-```bash
-streamlit run app.py
-# Opens at http://localhost:8501
-```
-
-## 📊 Sample Output
+## Sample Output
 ```
 ╔══════════════════════════════════════════════════╗
 ║           FINSIGHT INVESTMENT BRIEF              ║
@@ -109,31 +81,52 @@ streamlit run app.py
   dominant AI chip market position...
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 finsight/
 ├── agents/
-│   ├── orchestrator.py      # Master coordinator
-│   ├── financial_agent.py   # Fundamentals analysis
-│   ├── sentiment_agent.py   # News sentiment
-│   ├── technical_agent.py   # Technical indicators
-│   └── rag_agent.py         # SEC filing RAG
+│   ├── __init__.py
+│   ├── orchestrator.py          # Master coordinator
+│   ├── financial_agent.py       # Fundamentals analysis
+│   ├── sentiment_agent.py       # News sentiment
+│   ├── technical_agent.py       # Technical indicators
+│   └── rag_agent.py             # SEC filing RAG
 ├── tools/
-│   ├── data_fetcher.py      # yfinance wrapper
+│   ├── __init__.py
+│   ├── data_fetcher.py          # yfinance wrapper
 │   ├── technical_indicators.py  # TA-Lib calculations
-│   ├── sec_fetcher.py       # SEC EDGAR API
-│   └── vector_store.py      # ChromaDB RAG pipeline
-├── output/reports/          # Generated JSON reports
-├── app.py                   # Streamlit web UI
-├── main.py                  # CLI entry point
-├── config.py                # Settings
-└── requirements.txt
+│   ├── sec_fetcher.py           # SEC EDGAR API
+│   └── vector_store.py          # ChromaDB RAG pipeline
+├── backend/
+│   ├── main.py                  # FastAPI server
+│   ├── requirements.txt         # Backend dependencies
+│   └── Dockerfile               # Backend container
+├── frontend/
+│   ├── public/index.html
+│   ├── src/
+│   │   ├── App.jsx              # Main React component
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── package.json
+│   └── Dockerfile               # Frontend container
+├── output/
+│   ├── reports/                 # Generated JSON reports
+│   └── chromadb/                # Vector store
+├── docker-compose.yml           # Run everything
+├── app.py                       # Streamlit UI
+├── main.py                      # CLI entry point
+├── config.py                    # Settings
+├── requirements.txt
+├── .env                         # API keys (never committed)
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ## ⚠️ Disclaimer
 
 This tool is for research and educational purposes only. Not financial advice. Always consult a qualified financial advisor before making investment decisions.
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE)
