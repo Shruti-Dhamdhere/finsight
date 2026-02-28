@@ -1,0 +1,224 @@
+{
+  "ticker": "AAPL",
+  "company_name": "Apple Inc.",
+  "current_price": 264.18,
+  "signals": {
+    "financial": "BULLISH",
+    "sentiment": "NEUTRAL",
+    "technical": "NEUTRAL",
+    "sec": "NEUTRAL"
+  },
+  "recommendation": {
+    "recommendation": "BUY",
+    "confidence_score": 0.72,
+    "price_target_upside": "11% upside from current price",
+    "investment_horizon": "medium-term",
+    "thesis": "Apple represents a high-quality core holding trading at an attractive entry point following recent underperformance. The combination of fortress balance sheet, exceptional cash generation ($106B FCF), and best-in-class margins (27% net, 47% gross) provides a solid foundation despite premium valuations. Technical indicators suggest oversold conditions with potential bounce forming, while the $293 analyst price target offers 11% upside with limited downside given strong fundamentals and support levels.",
+    "bull_case": "Apple's exceptional financial profile with 152% ROE and massive cash generation enables aggressive capital returns while maintaining market leadership, with technical oversold conditions setting up a favorable risk/reward entry point. Strategic supply chain investments and reclaiming the SMA 20 level could trigger momentum reversal, driving the stock toward analyst targets near $293.",
+    "bear_case": "Recent underperformance versus SPY (11.8% vs 18.6%) reflects concerns about core business maturation and competitive pressures from Samsung in key European markets. High debt-to-equity ratio of 103% combined with premium valuation multiples leave minimal room for execution missteps or margin compression in a weakening consumer environment.",
+    "key_catalysts": [
+      "Technical bounce from oversold RSI levels with bullish MACD crossover confirmation",
+      "Reclaiming SMA 20 at $268.62 to confirm short-term momentum shift",
+      "Continued capital allocation through buybacks and dividends supported by $106B annual FCF"
+    ],
+    "key_risks": [
+      "Failure to hold SMA 50 support at $265.20 could trigger broader technical breakdown",
+      "Intensifying smartphone competition in Europe from Samsung eroding market share",
+      "Premium valuation multiples vulnerable to multiple compression if growth disappoints"
+    ],
+    "position_sizing": "medium position - High-quality fundamentals and analyst support justify meaningful allocation, but recent relative underperformance, technical correction phase, and premium valuation warrant measured position sizing rather than outsized conviction"
+  },
+  "agent_results": {
+    "financial": {
+      "ticker": "AAPL",
+      "raw_data": {
+        "ticker": "AAPL",
+        "company": {
+          "name": "Apple Inc.",
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "country": "United States",
+          "employees": 150000,
+          "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates v"
+        },
+        "financials": {
+          "current_price": 264.18,
+          "day_change_pct": -3.21,
+          "market_cap": 3882897899520,
+          "pe_ratio": 33.48289,
+          "forward_pe": 28.408987,
+          "eps": 7.89,
+          "revenue": 435617005568,
+          "revenue_growth": 0.157,
+          "gross_margins": 0.47325,
+          "profit_margins": 0.27037,
+          "debt_to_equity": 102.63,
+          "return_on_equity": 1.5202099,
+          "free_cashflow": 106312753152,
+          "dividend_yield": 0.38,
+          "52_week_high": 288.62,
+          "52_week_low": 169.21,
+          "analyst_target_price": 293.06952,
+          "recommendation": "buy"
+        },
+        "performance": {
+          "1_week": -0.75,
+          "1_month": 2.38,
+          "1_year": 11.81
+        },
+        "volatility_annualized_pct": 28.55,
+        "benchmark_1yr_return": 18.63,
+        "price_history": "                                 Open        High         Low       Close     Volume  Dividends  Stock Splits\nDate                                                                                                         \n2024-02-28 00:00:00-05:00  180.863995  181.468494  178.505469  179.783829   48953900        0.0           0.0\n2024-02-29 00:00:00-05:00  179.635188  180.923466  177.910875  179.119873  136682600        0.0           0.0\n2024-03-01 00:00:00-05:00  177.930680  178.901837  175.780252  178.039688   73563100        0.0           0.0\n2024-03-04 00:00:00-05:00  174.561331  175.304567  172.222615  173.520813   81510100        0.0           0.0\n2024-03-05 00:00:00-05:00  169.219936  170.488391  168.090218  168.585709   95132400        0.0           0.0\n...                               ...         ...         ...         ...        ...        ...           ...\n2026-02-23 00:00:00-05:00  263.489990  269.429993  263.380005  266.179993   37308200        0.0           0.0\n2026-02-24 00:00:00-05:00  267.859985  274.890015  267.709991  272.140015   47014600        0.0           0.0\n2026-02-25 00:00:00-05:00  271.779999  274.940002  271.049988  274.230011   33714300        0.0           0.0\n2026-02-26 00:00:00-05:00  274.950012  276.109985  270.799988  272.950012   32345100        0.0           0.0\n2026-02-27 00:00:00-05:00  272.809998  272.809998  262.890015  264.179993   71592273        0.0           0.0\n\n[502 rows x 7 columns]",
+        "status": "success"
+      },
+      "analysis": {
+        "valuation_assessment": "AAPL trades at a premium valuation with a P/E of 33.5x versus forward P/E of 28.4x, suggesting moderate expectations for growth, though the premium is justified by strong margins and cash generation.",
+        "financial_health_score": "9 - Exceptional financial health with $106B in free cash flow, strong gross margins of 47%, and impressive profit margins of 27%, though elevated debt-to-equity of 103% is offset by substantial cash generation.",
+        "growth_outlook": "Modest revenue growth of 15.7% is solid but reflects maturity in core markets, with future growth likely dependent on services expansion and new product categories.",
+        "key_strengths": [
+          "Exceptional cash generation with $106.3B in free cash flow supporting capital returns",
+          "Industry-leading profit margins of 27% and gross margins of 47% demonstrate pricing power",
+          "Massive $3.9T market cap with strong ROE of 152% reflecting efficient capital deployment"
+        ],
+        "key_concerns": [
+          "Stock has underperformed SPY over 1-year period (11.81% vs 18.63%) indicating relative weakness",
+          "High debt-to-equity ratio of 103% and premium valuation multiples leave limited margin for disappointment"
+        ],
+        "fundamental_signal": "BULLISH",
+        "fundamental_confidence": 0.75,
+        "analyst_summary": "AAPL demonstrates exceptional financial quality with best-in-class margins and cash generation, justifying its premium valuation despite trading near the higher end of historical multiples. While recent underperformance versus the broader market and maturation of core businesses present headwinds, the company's strong fundamentals, analyst price target of $293 (11% upside), and buy rating support a bullish outlook. The combination of solid growth, fortress balance sheet, and capital return capacity makes AAPL a high-quality core holding."
+      },
+      "financial_summary": "\nCOMPANY: Apple Inc. (AAPL)\nSECTOR: Technology | INDUSTRY: Consumer Electronics\n\nPRICE METRICS:\n- Current Price: $264.18\n- Day Change: -3.21%\n- 52-Week High: 288.62 | Low: 169.21\n- Analyst Target: 293.06952\n- Analyst Recommendation: buy\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: -0.75% \n- 1 Month: 2.38%\n- 1 Year: 11.81% vs SPY: 18.63%\n\nVALUATION:\n- Market Cap: $3.9T\n- P/E Ratio: 33.48289\n- Forward P/E: 28.408987\n- EPS: 7.89\n\nFINANCIAL HEALTH:\n- Revenue: $435.6B\n- Revenue Growth: 0.157\n- Gross Margins: 0.47325\n- Profit Margins: 0.27037\n- Debt/Equity: 102.63\n- Return on Equity: 1.5202099\n- Free Cash Flow: $106.3B\n- Dividend Yield: 0.38\n\nVOLATILITY: 28.55% annualized\n",
+      "status": "success"
+    },
+    "sentiment": {
+      "ticker": "AAPL",
+      "news_count": 10,
+      "analysis": {
+        "overall_sentiment": "NEUTRAL",
+        "sentiment_score": 0.55,
+        "news_summary": "Apple is making strategic moves with a major chip purchase from TSMC's Arizona facility, demonstrating supply chain commitment and domestic manufacturing support. However, the company faces competitive pressure from Samsung in European smartphone markets, while market indexes show general weakness below key technical levels.",
+        "positive_catalysts": [
+          "Apple purchasing 100M chips from TSMC Arizona facility shows strong production commitment and supply chain security",
+          "Analyst comparison to 'Rolex Effect' suggests Apple's brand loyalty could provide resilience against AI disruption",
+          "Strong institutional holdings with advisors balancing portfolios around major Apple positions"
+        ],
+        "negative_risks": [
+          "Samsung gaining market share against Apple in European smartphone market",
+          "Major indexes trading below 50-day moving averages indicating broader market weakness",
+          "General tech sector pressure with Nasdaq underperforming relative to Dow"
+        ],
+        "media_tone": "Media coverage is balanced with focus on Apple's strategic manufacturing investments and brand strength, but acknowledges competitive challenges in key markets.",
+        "sentiment_signal": "NEUTRAL",
+        "sentiment_confidence": 0.62
+      },
+      "status": "success"
+    },
+    "technical": {
+      "ticker": "AAPL",
+      "indicators": {
+        "rsi": 38.92,
+        "macd": {
+          "macd": 1.2264,
+          "signal": 1.0211,
+          "histogram": 0.2053
+        },
+        "bollinger_bands": {
+          "upper": 281.71,
+          "middle": 268.62,
+          "lower": 255.53,
+          "position_pct": 33.05
+        },
+        "moving_averages": {
+          "sma_20": 268.62,
+          "sma_50": 265.2,
+          "sma_200": 242.5,
+          "ema_20": 266.84
+        },
+        "volume": {
+          "current": 71592273,
+          "avg_20d": 54029508,
+          "ratio": 1.33
+        },
+        "support_resistance": {
+          "52w_high": 280.65,
+          "52w_low": 243.19
+        },
+        "signals": [
+          {
+            "indicator": "RSI",
+            "signal": "NEUTRAL",
+            "reason": "Neutral at 38.92"
+          },
+          {
+            "indicator": "MACD",
+            "signal": "BULLISH",
+            "reason": "Positive histogram, MACD above signal"
+          },
+          {
+            "indicator": "MA",
+            "signal": "BULLISH",
+            "reason": "Price above 200 SMA, golden cross formation"
+          },
+          {
+            "indicator": "BBANDS",
+            "signal": "NEUTRAL",
+            "reason": "Price mid-band (33.05%)"
+          }
+        ],
+        "overall_signal": "NEUTRAL",
+        "bullish_count": 2,
+        "bearish_count": 0,
+        "status": "success"
+      },
+      "analysis": {
+        "trend_assessment": "AAPL is trading above all major moving averages with SMA 20 > SMA 50 > SMA 200, indicating an intact uptrend despite recent weakness.",
+        "momentum_assessment": "Momentum shows early signs of recovery with MACD above signal line and positive histogram, though RSI at 38.92 suggests the stock is approaching oversold territory.",
+        "support_level": 265.2,
+        "resistance_level": 280.65,
+        "technical_signal": "NEUTRAL",
+        "technical_confidence": 0.65,
+        "key_levels_to_watch": [
+          "265.20 (SMA 50 support)",
+          "268.62 (SMA 20)",
+          "280.65 (52-week high)"
+        ],
+        "technical_summary": "AAPL is in a corrective phase within an overall uptrend, positioned in the lower third of its Bollinger Bands at 33.05%. The RSI near oversold levels combined with bullish MACD crossover and elevated volume suggests a potential bounce is developing. The stock needs to reclaim the SMA 20 at 268.62 to confirm short-term strength, while holding above SMA 50 at 265.20 remains critical for maintaining the broader uptrend."
+      },
+      "status": "success"
+    },
+    "rag": {
+      "ticker": "AAPL",
+      "filings_analyzed": 4,
+      "chunks_indexed": 245,
+      "analysis": {
+        "key_risk_factors": [
+          "Internal control deficiencies and material weaknesses in financial reporting that could adversely affect the company's ability to record and report financial information",
+          "Fraud risk involving management or employees with significant roles in internal controls",
+          "Tax and regulatory risk requiring potential additional payment obligations under debt covenants"
+        ],
+        "growth_drivers": [
+          "Ongoing evaluation and maintenance of disclosure controls and procedures",
+          "Access to debt capital markets through established indenture facilities"
+        ],
+        "management_tone": "Management demonstrates procedural compliance focus with emphasis on control evaluation and regulatory adherence, though excerpts lack forward-looking strategic commentary.",
+        "competitive_position": "Insufficient data in excerpts to assess competitive moat, though the presence of multiple debt indentures suggests established market access and creditworthiness.",
+        "red_flags": [
+          "Explicit mention of material weakness risks in internal controls over financial reporting",
+          "Specific disclosure of fraud risk involving management personnel"
+        ],
+        "positive_signals": [
+          "Active evaluation of disclosure controls and procedures conducted during recent fiscal quarter",
+          "Established debt financing infrastructure with multiple indenture agreements indicating financial flexibility"
+        ],
+        "sec_signal": "NEUTRAL",
+        "sec_confidence": 0.35,
+        "sec_summary": "The excerpts primarily contain boilerplate compliance language regarding internal controls, audit procedures, and debt covenant terms. While risk factor disclosures mention potential internal control weaknesses and fraud risks, these are standard SEC-required disclosures without evidence of actual material issues. Insufficient strategic or operational data prevents definitive bullish or bearish assessment."
+      },
+      "status": "success"
+    }
+  },
+  "elapsed_seconds": 61.3,
+  "errors": [],
+  "status": "success"
+}
