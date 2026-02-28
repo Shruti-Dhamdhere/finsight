@@ -1,0 +1,139 @@
+# 📈 FinSight — Autonomous Financial Research Agent
+
+> Multi-agent AI system that generates institutional-grade investment research briefs for any publicly traded stock in ~60 seconds.
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
+[![Claude API](https://img.shields.io/badge/Claude-Sonnet%204.5-orange)](https://anthropic.com)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+## 🎯 What It Does
+
+Enter any stock ticker → 4 specialized AI agents run in parallel → Get a professional BUY/HOLD/SELL research brief with full reasoning in ~60 seconds.
+
+**Tested on:** AAPL ($264 → BUY, 72% confidence) | NVDA ($177 → BUY, 72%, 48% upside) | TSLA ($402 → HOLD, 65% confidence)
+
+## 🏗️ Architecture
+```
+User Input (ticker)
+        ↓
+  Orchestrator Agent (Claude Sonnet 4.5)
+  ↙       ↓        ↘        ↘
+Agent 1  Agent 2  Agent 3  Agent 4
+Finance  Sentiment Technical  SEC RAG
+yfinance  Claude   TA-Lib   ChromaDB
+        ↓
+  Synthesis Agent (Claude Sonnet 4.5)
+        ↓
+  BUY/HOLD/SELL + Confidence Score + Full Thesis
+```
+
+## 🤖 Agent Breakdown
+
+| Agent | Data Source | Signals Generated |
+|-------|------------|-------------------|
+| 🏦 Financial Agent | yfinance | P/E, revenue growth, margins, FCF, ROE |
+| 📰 Sentiment Agent | yfinance news + Claude | News tone, catalysts, risks |
+| 📊 Technical Agent | Price history + TA-Lib | RSI, MACD, Bollinger Bands, MAs |
+| 📋 RAG Agent | SEC EDGAR 10-K/10-Q + ChromaDB | Risk factors, guidance, competition |
+| 🧠 Synthesis Agent | All agent outputs + Claude | Final BUY/HOLD/SELL + investment thesis |
+
+## 🔧 Tech Stack
+
+- **LLM:** Claude Sonnet 4.5 (Anthropic API)
+- **RAG:** ChromaDB vector database + sentence-transformers (all-MiniLM-L6-v2)
+- **Financial Data:** SEC EDGAR API (free), yfinance
+- **Technical Analysis:** TA-Lib (RSI, MACD, Bollinger Bands, Moving Averages)
+- **Web UI:** Streamlit
+- **Language:** Python 3.11
+
+## ✨ Key Technical Achievements
+
+- **RAG pipeline** over 200-page SEC 10-K/10-Q filings (245+ ChromaDB chunks per stock)
+- **Multi-agent orchestration** built from first principles — no LangChain
+- **4 specialized agents** with independent signal generation and confidence scoring
+- **~60 second** end-to-end analysis time
+- **Full reasoning transparency** — every signal traceable to source data
+
+## 🚀 Installation
+```bash
+git clone https://github.com/Shruti-Dhamdhere/finsight.git
+cd finsight
+conda create -n finsight python=3.11 -y
+conda activate finsight
+pip install -r requirements.txt
+```
+
+Create a `.env` file:
+```
+ANTHROPIC_API_KEY=your-anthropic-api-key
+```
+
+## 💻 Usage
+
+**Command Line:**
+```bash
+python main.py AAPL
+python main.py NVDA
+python main.py TSLA
+```
+
+**Web UI:**
+```bash
+streamlit run app.py
+# Opens at http://localhost:8501
+```
+
+## 📊 Sample Output
+```
+╔══════════════════════════════════════════════════╗
+║           FINSIGHT INVESTMENT BRIEF              ║
+╚══════════════════════════════════════════════════╝
+
+  Company:     NVIDIA Corporation (NVDA)
+  Price:       $177.19
+
+  AGENT SIGNALS:
+  • Fundamental:  BULLISH
+  • Sentiment:    NEUTRAL
+  • Technical:    NEUTRAL
+  • SEC Filings:  NEUTRAL
+
+  RECOMMENDATION:  BUY
+  Confidence:      72%
+  Horizon:         medium-term
+  Upside:          48% from current price
+
+  THESIS:
+  NVDA presents compelling risk-reward following recent pullback,
+  with 71% gross margins and 73% revenue growth supporting
+  dominant AI chip market position...
+```
+
+## 📁 Project Structure
+```
+finsight/
+├── agents/
+│   ├── orchestrator.py      # Master coordinator
+│   ├── financial_agent.py   # Fundamentals analysis
+│   ├── sentiment_agent.py   # News sentiment
+│   ├── technical_agent.py   # Technical indicators
+│   └── rag_agent.py         # SEC filing RAG
+├── tools/
+│   ├── data_fetcher.py      # yfinance wrapper
+│   ├── technical_indicators.py  # TA-Lib calculations
+│   ├── sec_fetcher.py       # SEC EDGAR API
+│   └── vector_store.py      # ChromaDB RAG pipeline
+├── output/reports/          # Generated JSON reports
+├── app.py                   # Streamlit web UI
+├── main.py                  # CLI entry point
+├── config.py                # Settings
+└── requirements.txt
+```
+
+## ⚠️ Disclaimer
+
+This tool is for research and educational purposes only. Not financial advice. Always consult a qualified financial advisor before making investment decisions.
+
+## 📄 License
+
+MIT License — see [LICENSE](LICENSE)
