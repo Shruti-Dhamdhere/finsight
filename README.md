@@ -51,35 +51,8 @@ yfinance  Claude   TA-Lib   ChromaDB
 - **RAG pipeline** over 200-page SEC 10-K/10-Q filings (245+ ChromaDB chunks per stock)
 - **Multi-agent orchestration** built from first principles — no LangChain
 - **4 specialized agents** with independent signal generation and confidence scoring
-- **~60 second** end-to-end analysis time
+- **30 second** end-to-end analysis time
 - **Full reasoning transparency** — every signal traceable to source data
-
-
-## Sample Output
-```
-╔══════════════════════════════════════════════════╗
-║           FINSIGHT INVESTMENT BRIEF              ║
-╚══════════════════════════════════════════════════╝
-
-  Company:     NVIDIA Corporation (NVDA)
-  Price:       $177.19
-
-  AGENT SIGNALS:
-  • Fundamental:  BULLISH
-  • Sentiment:    NEUTRAL
-  • Technical:    NEUTRAL
-  • SEC Filings:  NEUTRAL
-
-  RECOMMENDATION:  BUY
-  Confidence:      72%
-  Horizon:         medium-term
-  Upside:          48% from current price
-
-  THESIS:
-  NVDA presents compelling risk-reward following recent pullback,
-  with 71% gross margins and 73% revenue growth supporting
-  dominant AI chip market position...
-```
 
 ## Project Structure
 ```
