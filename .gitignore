@@ -1,3 +1,18 @@
+# Environment
 .env
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Output data — never commit
+output/chromadb/
+output/reports/
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/build/
+
+# Mac
+.DS_Store
