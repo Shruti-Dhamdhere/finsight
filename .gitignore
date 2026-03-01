@@ -16,3 +16,7 @@ frontend/build/
 
 # Mac
 .DS_Store
+
+output/chromadb/
+output/reports/
+output/
