@@ -8,9 +8,7 @@
 
 ##  What It Does
 
-Enter any stock ticker → 4 specialized AI agents run in parallel → Get a professional BUY/HOLD/SELL research brief with full reasoning in ~60 seconds.
-
-**Tested on:** AAPL ($264 → BUY, 72% confidence) | NVDA ($177 → BUY, 72%, 48% upside) | TSLA ($402 → HOLD, 65% confidence)
+Enter any stock ticker → 4 specialized AI agents run in parallel → Get a professional BUY/HOLD/SELL research brief with full reasoning in ~20 seconds.
 
 ##  Architecture
 ```
@@ -27,7 +25,7 @@ yfinance  Claude   TA-Lib   ChromaDB
   BUY/HOLD/SELL + Confidence Score + Full Thesis
 ```
 
-## 🤖 Agent Breakdown
+## Agent Breakdown
 
 | Agent | Data Source | Signals Generated |
 |-------|------------|-------------------|
@@ -96,7 +94,7 @@ finsight/
 └── README.md
 ```
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for research and educational purposes only. Not financial advice. Always consult a qualified financial advisor before making investment decisions.
 
