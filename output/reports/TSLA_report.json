@@ -1,32 +1,33 @@
 {
   "ticker": "TSLA",
   "company_name": "Tesla, Inc.",
-  "current_price": 402.51,
+  "current_price": 405.94,
   "signals": {
     "financial": "BEARISH",
-    "sentiment": "BEARISH",
+    "sentiment": "BULLISH",
     "technical": "NEUTRAL",
     "sec": "NEUTRAL"
   },
   "recommendation": {
     "recommendation": "HOLD",
-    "confidence_score": 0.65,
-    "price_target_upside": "5% upside to $422",
-    "investment_horizon": "short-term",
-    "thesis": "Tesla presents a high-risk holding scenario where extreme valuation multiples (369x P/E) are fundamentally disconnected from deteriorating operating metrics including revenue contraction and 4% profit margins. While the stock has demonstrated exceptional relative strength with 42.76% annual returns and maintains market leadership in EVs, the convergence of bearish fundamentals, mounting legal liabilities around autonomous driving, and poor capital efficiency (4.9% ROE) outweigh near-term technical oversold signals. The limited 5% upside to analyst targets and governance concerns support a neutral stance pending improved fundamentals or technical confirmation.",
-    "bull_case": "Technical indicators suggest oversold conditions with the stock in the lower Bollinger Band range (18.43%) and a positive MACD crossover, potentially setting up a short-term relief rally toward the $413-422 zone. Tesla's dominant brand position, $94.8B revenue scale, and positive $3.7B free cash flow generation provide a foundation for potential multiple re-expansion if execution improves.",
-    "bear_case": "The 369x P/E ratio is indefensible against negative revenue growth, collapsing margins, and sub-5% ROE, indicating significant downside risk if market sentiment shifts or growth fails to materialize. Mounting legal liabilities including a $240 million Autopilot verdict, key personnel departures from the Cybercab program, and regulatory disputes over robotaxi marketing create substantial execution and reputational risks that could trigger multiple compression.",
+    "confidence_score": 0.4,
+    "price_target_upside": "13% upside to $460 based on analyst target",
+    "investment_horizon": "long-term",
+    "thesis": "Tesla is a mixed bag right now. The company is the leader in electric vehicles and the stock has done well over the past year, but it's very expensive compared to its actual earnings and sales are shrinking. While some analysts see potential in new technology like robotaxis, the current price doesn't match the company's financial performance. For a beginner investing for the long term, this isn't the safest place to start building your portfolio.",
+    "bull_case": "Tesla dominates the electric vehicle market with strong brand recognition and is generating billions in cash from operations. Major banks like Bank of America believe the stock could reach $460, driven by exciting future technologies like self-driving taxis that could create entirely new revenue streams.",
+    "bear_case": "Tesla's sales are actually shrinking (down 3% last year) and it's trading at 369 times its earnings, which means you're paying $369 for every $1 the company makes\u2014that's extremely expensive. The profit margins are only 4%, which is quite thin for a company valued this high, and if the growth story weakens, the stock price could fall significantly.",
     "key_catalysts": [
-      "Break above 20-day SMA at $413.85 would confirm technical momentum reversal and potentially trigger short covering",
-      "Q4 delivery numbers and margin guidance that demonstrate stabilization in core automotive business fundamentals",
-      "Resolution or favorable developments in Autopilot litigation and DMV regulatory disputes"
+      "Robotaxi technology development could open major new revenue opportunities beyond car sales",
+      "Recovery in electric vehicle demand as charging infrastructure improves and prices become more competitive",
+      "Expansion in energy storage and solar businesses diversifying revenue beyond automobiles"
     ],
     "key_risks": [
-      "Valuation contraction risk as 369x P/E multiple is unsustainable with current growth profile and could compress rapidly",
-      "Escalating legal and regulatory challenges around autonomous driving claims could result in significant financial penalties and brand damage",
-      "Continued revenue contraction and margin compression with poor capital efficiency (4.9% ROE) signals deteriorating competitive position"
+      "Sales are declining as competition in electric vehicles heats up from traditional automakers and Chinese companies",
+      "The stock price is extremely high compared to earnings, meaning even small disappointments could cause big price drops",
+      "Profit margins are very thin at 4%, leaving little room for error if costs rise or they need to cut prices to compete"
     ],
-    "position_sizing": "small position - The bearish fundamental and sentiment signals combined with extreme valuation metrics warrant conservative exposure. Only technical oversold conditions and strong historical momentum justify maintaining rather than exiting positions. Risk management dictates limiting exposure until clearer fundamental improvement or technical breakout confirmation emerges."
+    "position_sizing": "Given your beginner status and this being a high-risk, expensive stock, I'd recommend starting with much safer investments first. If you're set on owning Tesla, limit it to no more than $50 of your $200-500 monthly budget (10-25% maximum), and put the rest into a diversified index fund like an S&P 500 fund. This way you get some exposure if Tesla does well, but you're not betting your savings on one volatile stock. Build your core portfolio first with stable, diversified funds, then add individual stocks as you learn more.",
+    "beginner_summary": "Tesla is too risky and expensive to be your first investment. Start by putting most of your $200-500/month into a simple, diversified fund that owns hundreds of companies (like an S&P 500 index fund), and only add small amounts to individual stocks like Tesla once you have that solid foundation built."
   },
   "agent_results": {
     "financial": {
@@ -42,12 +43,12 @@
           "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sed"
         },
         "financials": {
-          "current_price": 402.51,
-          "day_change_pct": -1.49,
-          "market_cap": 1510391414784,
-          "pe_ratio": 369.27524,
-          "forward_pe": 143.53212,
-          "eps": 1.09,
+          "current_price": 405.94,
+          "day_change_pct": 3.44,
+          "market_cap": 1523262160896,
+          "pe_ratio": 369.03635,
+          "forward_pe": 144.44052,
+          "eps": 1.1,
           "revenue": 94827003904,
           "revenue_growth": -0.031,
           "gross_margins": 0.18027,
@@ -58,131 +59,62 @@
           "dividend_yield": "N/A",
           "52_week_high": 498.83,
           "52_week_low": 214.25,
-          "analyst_target_price": 421.729,
+          "analyst_target_price": 421.85757,
           "recommendation": "hold"
         },
         "performance": {
-          "1_week": 0.67,
-          "1_month": -3.37,
-          "1_year": 42.76
+          "1_week": -0.65,
+          "1_month": -3.8,
+          "1_year": 49.22
         },
-        "volatility_annualized_pct": 62.89,
-        "benchmark_1yr_return": 18.63,
-        "price_history": "                                 Open        High         Low       Close     Volume  Dividends  Stock Splits\nDate                                                                                                         \n2024-02-28 00:00:00-05:00  200.419998  205.300003  198.440002  202.039993   99806200        0.0           0.0\n2024-02-29 00:00:00-05:00  204.179993  205.279999  198.449997  201.880005   85907000        0.0           0.0\n2024-03-01 00:00:00-05:00  200.520004  204.520004  198.500000  202.639999   82243100        0.0           0.0\n2024-03-04 00:00:00-05:00  198.729996  199.750000  186.720001  188.139999  134334900        0.0           0.0\n2024-03-05 00:00:00-05:00  183.050003  184.589996  177.570007  180.740005  119660800        0.0           0.0\n...                               ...         ...         ...         ...        ...        ...           ...\n2026-02-23 00:00:00-05:00  407.290009  407.700012  394.040009  399.829987   69680000        0.0           0.0\n2026-02-24 00:00:00-05:00  399.500000  410.820007  397.640015  409.380005   58579500        0.0           0.0\n2026-02-25 00:00:00-05:00  412.149994  420.339996  412.149994  417.399994   54809700        0.0           0.0\n2026-02-26 00:00:00-05:00  414.420013  416.809998  403.660004  408.579987   53602500        0.0           0.0\n2026-02-27 00:00:00-05:00  402.940002  407.119995  398.109985  402.510010   56760900        0.0           0.0\n\n[502 rows x 7 columns]",
+        "volatility_annualized_pct": 62.74,
+        "benchmark_1yr_return": 20.16,
+        "price_history": "                                 Open        High         Low       Close     Volume  Dividends  Stock Splits\nDate                                                                                                         \n2024-03-05 00:00:00-05:00  183.050003  184.589996  177.570007  180.740005  119660800        0.0           0.0\n2024-03-06 00:00:00-05:00  179.990005  181.580002  173.699997  176.539993  107920900        0.0           0.0\n2024-03-07 00:00:00-05:00  174.350006  180.039993  173.699997  178.649994  102129000        0.0           0.0\n2024-03-08 00:00:00-05:00  181.500000  182.729996  174.699997  175.339996   85544600        0.0           0.0\n2024-03-11 00:00:00-04:00  175.449997  182.869995  174.800003  177.770004   85391500        0.0           0.0\n...                               ...         ...         ...         ...        ...        ...           ...\n2026-02-26 00:00:00-05:00  414.420013  416.809998  403.660004  408.579987   53602500        0.0           0.0\n2026-02-27 00:00:00-05:00  402.940002  407.119995  398.109985  402.510010   56890100        0.0           0.0\n2026-03-02 00:00:00-05:00  390.600006  404.540009  388.250000  403.320007   55088300        0.0           0.0\n2026-03-03 00:00:00-05:00  395.089996  396.339996  385.390015  392.429993   62617300        0.0           0.0\n2026-03-04 00:00:00-05:00  397.850006  408.329987  394.579987  405.940002   68140300        0.0           0.0\n\n[501 rows x 7 columns]",
         "status": "success"
       },
       "analysis": {
-        "valuation_assessment": "The stock is expensive with a P/E ratio of 369x (even forward P/E of 144x is elevated), trading at a significant premium that implies aggressive future growth expectations beyond current fundamentals.",
-        "financial_health_score": "6 - Moderate financial health with solid revenue scale ($94.8B) and positive free cash flow ($3.7B), but concerning negative revenue growth (-3.1%), thin profit margins (4%), and weak ROE (4.9%).",
-        "growth_outlook": "Growth has stalled with negative revenue growth and compressed margins, requiring successful execution on new models, energy storage, and autonomous driving to justify valuation.",
+        "valuation_assessment": "The stock is extremely expensive with a P/E of 369x and Forward P/E of 144x, trading well above historical auto manufacturer multiples despite decelerating growth.",
+        "financial_health_score": "6 - Balance sheet is manageable with moderate debt-to-equity of 17.8x, but profitability is concerningly weak with only 4% profit margins and 5% ROE, well below quality thresholds.",
+        "growth_outlook": "Growth has stalled with revenue declining 3.1% YoY, creating a significant disconnect between the premium valuation and deteriorating fundamentals.",
         "key_strengths": [
-          "Strong market outperformance with 42.76% annual return vs SPY's 18.63%",
-          "Dominant brand position in EV market with significant scale at $94.8B revenue",
-          "Positive free cash flow generation of $3.7B despite challenging operating environment"
+          "Strong relative performance with 49% gain over past year, significantly outperforming SPY's 20%",
+          "Market leadership position in EV sector with $1.5T market cap and established brand",
+          "Positive free cash flow generation of $3.7B demonstrates operational cash conversion capability"
         ],
         "key_concerns": [
-          "Extreme valuation multiples (369x P/E) are disconnected from current fundamentals with negative revenue growth and 4% profit margins",
-          "Deteriorating financial performance with revenue contraction (-3.1%) and very low ROE (4.9%) indicating poor capital efficiency"
+          "Revenue contraction of -3.1% indicates demand challenges and intensifying competition in the EV market",
+          "Profitability metrics are extremely weak with 4% profit margins and 5% ROE, far below expectations for a company trading at 369x earnings",
+          "Valuation multiples are unsustainable given negative revenue growth, with significant compression risk as growth narrative weakens"
         ],
         "fundamental_signal": "BEARISH",
-        "fundamental_confidence": 0.72,
-        "analyst_summary": "Tesla's fundamentals present a bearish case with valuation multiples that are extraordinarily stretched relative to deteriorating operating performance, including revenue contraction and margin compression. While the company maintains strong brand equity and market leadership in EVs, the current 369x P/E ratio cannot be justified by negative revenue growth, 4% profit margins, and sub-5% ROE. The risk-reward appears unfavorable at current levels, aligning with the analyst 'hold' rating and suggesting limited upside to the $422 target price."
+        "fundamental_confidence": 0.75,
+        "analyst_summary": "Tesla's fundamentals present a concerning picture with negative revenue growth, razor-thin profit margins, and an egregiously expensive valuation that cannot be justified by current financial performance. While the company maintains its EV market leadership and generates positive free cash flow, the 369x P/E multiple paired with contracting revenues and 4% profit margins creates substantial downside risk. The fundamental disconnect suggests significant overvaluation, warranting a bearish stance despite strong recent price momentum."
       },
-      "financial_summary": "\nCOMPANY: Tesla, Inc. (TSLA)\nSECTOR: Consumer Cyclical | INDUSTRY: Auto Manufacturers\n\nPRICE METRICS:\n- Current Price: $402.51\n- Day Change: -1.49%\n- 52-Week High: 498.83 | Low: 214.25\n- Analyst Target: 421.729\n- Analyst Recommendation: hold\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: 0.67% \n- 1 Month: -3.37%\n- 1 Year: 42.76% vs SPY: 18.63%\n\nVALUATION:\n- Market Cap: $1.5T\n- P/E Ratio: 369.27524\n- Forward P/E: 143.53212\n- EPS: 1.09\n\nFINANCIAL HEALTH:\n- Revenue: $94.8B\n- Revenue Growth: -0.031\n- Gross Margins: 0.18027\n- Profit Margins: 0.040009998\n- Debt/Equity: 17.763\n- Return on Equity: 0.049250003\n- Free Cash Flow: $3.7B\n- Dividend Yield: N/A\n\nVOLATILITY: 62.89% annualized\n",
+      "financial_summary": "\nCOMPANY: Tesla, Inc. (TSLA)\nSECTOR: Consumer Cyclical | INDUSTRY: Auto Manufacturers\n\nPRICE METRICS:\n- Current Price: $405.94\n- Day Change: 3.44%\n- 52-Week High: 498.83 | Low: 214.25\n- Analyst Target: 421.85757\n- Analyst Recommendation: hold\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: -0.65% \n- 1 Month: -3.8%\n- 1 Year: 49.22% vs SPY: 20.16%\n\nVALUATION:\n- Market Cap: $1.5T\n- P/E Ratio: 369.03635\n- Forward P/E: 144.44052\n- EPS: 1.1\n\nFINANCIAL HEALTH:\n- Revenue: $94.8B\n- Revenue Growth: -0.031\n- Gross Margins: 0.18027\n- Profit Margins: 0.040009998\n- Debt/Equity: 17.763\n- Return on Equity: 0.049250003\n- Free Cash Flow: $3.7B\n- Dividend Yield: N/A\n\nVOLATILITY: 62.74% annualized\n",
       "status": "success"
     },
     "sentiment": {
       "ticker": "TSLA",
       "news_count": 10,
       "analysis": {
-        "overall_sentiment": "NEGATIVE",
-        "sentiment_score": -0.62,
-        "news_summary": "Tesla faces mounting legal challenges over autonomous driving claims with a $240 million Autopilot liability verdict and escalating DMV disputes over robotaxi marketing. Critical personnel departures from the Cybercab program and safety concerns raised by prominent investors compound execution risks despite one analyst maintaining bullish price targets.",
+        "overall_sentiment": "POSITIVE",
+        "sentiment_score": 0.68,
+        "news_summary": "Bank of America reinstated Tesla coverage with a Buy rating and $460 price target, citing robotaxi prospects as a key catalyst. Tesla showed positive February sales growth in European markets and stock rebounded from recent losses, though concerns persist about broader tech valuations and the Mag 7's recent underperformance.",
         "positive_catalysts": [
-          "Benchmark reaffirms Buy rating with $475 price target citing margin strength and energy growth momentum",
-          "Cybercab highway testing continues in Chicago with targeted $30,000 price point"
+          "BofA upgrade to Buy with $460 price target based on robotaxi prospects",
+          "February sales figures showing growth in European markets",
+          "Stock rebounding from 2026 slump",
+          "Analysts viewing Tesla as top WallStreetBets stock to buy"
         ],
         "negative_risks": [
-          "$240 million Autopilot liability verdict raises safety and legal exposure concerns with investor warnings about FSD 'Mad Max' mode being unsafe",
-          "Legal battles with California DMV over autonomous driving marketing and new federal class action lawsuit threaten robotaxi rollout",
-          "Key executive Victor Nechita exits critical Cybercab/robotaxi program signaling potential execution challenges",
-          "Increased competition from Xpeng expanding robotics manufacturing with Optimus challenger"
+          "Mag 7 stocks characterized as overpriced and vulnerable to AI concerns",
+          "Recent share price pullback raising valuation questions",
+          "Broader market uncertainty around tariffs and geopolitical tensions",
+          "Questions about whether current pricing reflects long-term growth story"
         ],
-        "media_tone": "Coverage is predominantly negative, emphasizing legal liabilities, safety warnings from credible investors, and critical talent departures that undermine Tesla's autonomous driving narrative.",
-        "sentiment_signal": "BEARISH",
-        "sentiment_confidence": 0.75
-      },
-      "status": "success"
-    },
-    "technical": {
-      "ticker": "TSLA",
-      "indicators": {
-        "rsi": 44.7,
-        "macd": {
-          "macd": -6.9934,
-          "signal": -7.1721,
-          "histogram": 0.1786
-        },
-        "bollinger_bands": {
-          "upper": 431.81,
-          "middle": 413.85,
-          "lower": 395.89,
-          "position_pct": 18.43
-        },
-        "moving_averages": {
-          "sma_20": 413.85,
-          "sma_50": 436.14,
-          "sma_200": 390.66,
-          "ema_20": 415.36
-        },
-        "volume": {
-          "current": 56760900,
-          "avg_20d": 60299225,
-          "ratio": 0.94
-        },
-        "support_resistance": {
-          "52w_high": 498.83,
-          "52w_low": 387.53
-        },
-        "signals": [
-          {
-            "indicator": "RSI",
-            "signal": "NEUTRAL",
-            "reason": "Neutral at 44.7"
-          },
-          {
-            "indicator": "MACD",
-            "signal": "BULLISH",
-            "reason": "Positive histogram, MACD above signal"
-          },
-          {
-            "indicator": "MA",
-            "signal": "BULLISH",
-            "reason": "Price above 200 SMA, golden cross formation"
-          },
-          {
-            "indicator": "BBANDS",
-            "signal": "BULLISH",
-            "reason": "Price near lower band (18.43%)"
-          }
-        ],
-        "overall_signal": "BULLISH",
-        "bullish_count": 3,
-        "bearish_count": 0,
-        "status": "success"
-      },
-      "analysis": {
-        "trend_assessment": "TSLA is trading below both the 20 and 50-day SMAs but above the 200-day SMA, indicating a short-term downtrend within a longer-term uptrend.",
-        "momentum_assessment": "Momentum shows early signs of stabilization with RSI at 44.7 in neutral territory and MACD histogram turning positive, though both indicators remain below bullish thresholds.",
-        "support_level": 387.53,
-        "resistance_level": 436.14,
-        "technical_signal": "NEUTRAL",
-        "technical_confidence": 0.55,
-        "key_levels_to_watch": [
-          "413.85 (SMA 20)",
-          "436.14 (SMA 50)"
-        ],
-        "technical_summary": "TSLA exhibits mixed signals with the stock positioned in the lower portion of its Bollinger Bands (18.43%) suggesting oversold conditions, yet trading below key short-term moving averages. The positive MACD histogram crossover and neutral RSI indicate potential momentum stabilization, but confirmation is needed through a break above the 20-day SMA at 413.85. The stock remains above critical long-term support at the 200-day SMA, preserving the broader uptrend structure."
+        "media_tone": "Predominantly optimistic with major Wall Street upgrade driving positive coverage, though some cautionary notes on valuation and tech sector weakness.",
+        "sentiment_signal": "BULLISH",
+        "sentiment_confidence": 0.72
       },
       "status": "success"
     },
@@ -192,33 +124,111 @@
       "chunks_indexed": 64,
       "analysis": {
         "key_risk_factors": [
-          "Anti-takeover provisions that may prevent changes in management and limit shareholder ability to influence corporate actions",
-          "Governance structure includes mechanisms that could make it difficult for shareholders to accomplish transactions they deem in their best interests",
-          "Advance notice requirements for shareholder proposals and director nominations may limit shareholder participation"
+          "Anti-takeover provisions may prevent changes in management and limit shareholder ability to influence corporate governance",
+          "Advance notice requirements for shareholder proposals and director nominations may restrict shareholder participation",
+          "Corporate governance structure may prevent transactions that shareholders deem in their best interests"
         ],
         "growth_drivers": [
-          "Established disclosure controls and procedures for financial reporting transparency",
-          "Structured governance framework with defined shareholder rights and stock class preferences"
+          "Established disclosure controls and procedures framework for regulatory compliance",
+          "Internal control evaluation mechanisms for financial reporting quality"
         ],
-        "management_tone": "Management demonstrates procedural compliance with SEC requirements but the excerpts lack substantive forward-looking statements or expressions of strategic confidence.",
-        "competitive_position": "The excerpts provide insufficient information to assess competitive positioning, focusing primarily on corporate governance and procedural matters rather than market differentiation.",
+        "management_tone": "Management demonstrates procedural focus on compliance and governance structures, but the excerpts lack substantive forward-looking strategic commentary or confidence indicators.",
+        "competitive_position": "The excerpts provided contain primarily boilerplate corporate governance language without specific competitive advantages or market positioning details.",
         "red_flags": [
-          "Heavy emphasis on anti-takeover provisions and management entrenchment mechanisms",
-          "Lack of substantive business performance metrics or strategic discussion in provided excerpts",
-          "Incomplete excerpts suggest potential data quality issues or selective disclosure"
+          "Heavy emphasis on anti-takeover provisions suggesting potential entrenchment concerns",
+          "Incomplete or fragmented disclosure excerpts may indicate selective or unclear communication",
+          "Lack of substantive business metrics or operational commentary in provided sections"
         ],
         "positive_signals": [
-          "Active evaluation of disclosure controls and internal financial reporting systems",
-          "Defined shareholder rights structure provides clarity on stock class preferences"
+          "Formal evaluation of disclosure controls and procedures effectiveness demonstrates governance commitment",
+          "Structured approach to internal control over financial reporting"
         ],
         "sec_signal": "NEUTRAL",
         "sec_confidence": 0.3,
-        "sec_summary": "The filing excerpts focus predominantly on corporate governance mechanisms and procedural compliance rather than operational performance or strategic direction. The emphasis on anti-takeover provisions and management protection raises governance concerns, while the lack of substantive business discussion prevents meaningful assessment of company fundamentals. The incomplete and fragmented nature of the excerpts significantly limits analytical confidence."
+        "sec_summary": "The provided excerpts are heavily fragmented and focus predominantly on corporate governance boilerplate rather than substantive business operations or financial performance. The emphasis on anti-takeover provisions raises minor governance concerns, but the lack of meaningful financial, competitive, or strategic content prevents definitive assessment. Confidence is low due to incomplete and non-representative excerpt selection."
+      },
+      "status": "success"
+    },
+    "technical": {
+      "ticker": "TSLA",
+      "indicators": {
+        "rsi": 37.49,
+        "macd": {
+          "macd": -7.5133,
+          "signal": -7.3638,
+          "histogram": -0.1494
+        },
+        "bollinger_bands": {
+          "upper": 427.99,
+          "middle": 410.23,
+          "lower": 392.46,
+          "position_pct": 37.94
+        },
+        "moving_averages": {
+          "sma_20": 410.23,
+          "sma_50": 431.36,
+          "sma_200": 391.55,
+          "ema_20": 411.55
+        },
+        "volume": {
+          "current": 68140300,
+          "avg_20d": 59685375,
+          "ratio": 1.14
+        },
+        "support_resistance": {
+          "52w_high": 498.83,
+          "52w_low": 385.39
+        },
+        "signals": [
+          {
+            "indicator": "RSI",
+            "signal": "NEUTRAL",
+            "reason": "Neutral at 37.49"
+          },
+          {
+            "indicator": "MACD",
+            "signal": "BEARISH",
+            "reason": "Negative histogram, MACD below signal"
+          },
+          {
+            "indicator": "MA",
+            "signal": "BULLISH",
+            "reason": "Price above 200 SMA, golden cross formation"
+          },
+          {
+            "indicator": "BBANDS",
+            "signal": "NEUTRAL",
+            "reason": "Price mid-band (37.94%)"
+          }
+        ],
+        "overall_signal": "NEUTRAL",
+        "bullish_count": 1,
+        "bearish_count": 1,
+        "status": "success"
+      },
+      "analysis": {
+        "trend_assessment": "TSLA is trading below both the 20-day and 50-day SMAs but above the 200-day SMA, indicating a short-term downtrend within a longer-term uptrend.",
+        "momentum_assessment": "Momentum is weakening with RSI at 37.49 approaching oversold territory and MACD in negative territory with histogram showing continued downward pressure.",
+        "support_level": 385.39,
+        "resistance_level": 431.36,
+        "technical_signal": "NEUTRAL",
+        "technical_confidence": 0.55,
+        "key_levels_to_watch": [
+          "385.39 (52-week low)",
+          "410.23 (SMA 20)"
+        ],
+        "technical_summary": "TSLA is experiencing near-term weakness with price positioned in the lower third of its Bollinger Band range and momentum indicators showing bearish signals. However, the stock remains above its 200-day SMA and is approaching oversold RSI levels, suggesting potential for a bounce. The mixed signals warrant a neutral stance until clearer directional momentum emerges, with the 52-week low at 385.39 serving as critical support."
       },
       "status": "success"
     }
   },
-  "elapsed_seconds": 62.5,
-  "errors": [],
-  "status": "success"
+  "elapsed_seconds": 39.5,
+  "errors": {},
+  "status": "success",
+  "from_cache": false,
+  "user_profile": {
+    "experience": "beginner",
+    "goal": "grow_savings",
+    "risk_tolerance": "medium"
+  }
 }
