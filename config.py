@@ -7,7 +7,7 @@ load_dotenv()
 # ─── Anthropic API ────────────────────────────────────────────
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 MODEL = "claude-sonnet-4-5-20250929"
-MAX_TOKENS = 4096
+MAX_TOKENS = 1024
 
 # ─── Agent Settings ───────────────────────────────────────────
 AGENT_TIMEOUT = 30        # seconds before agent times out

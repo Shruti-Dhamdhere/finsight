@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import Auth, { supabase } from "./Auth";
+import Onboarding from "./Onboarding";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
 
@@ -371,7 +372,6 @@ function PriceChart({ ticker }) {
         </div>
       </div>
       <div className="chart-body">
-        {/* Hover price display */}
         <div className="chart-hover-info">
           {hover ? (
             <>
@@ -453,7 +453,6 @@ function SearchInput({ value, onChange, onSelect, onSubmit, placeholder, classNa
   );
 }
 
-// Global tooltip container component
 function TipPortal() {
   return <div id="tip-root" style={{ position: "fixed", inset: 0, pointerEvents: "none", zIndex: 99999 }} />;
 }
@@ -509,8 +508,24 @@ export default function App() {
     finally { clearInterval(iv); setLoading(false); }
   };
 
+  // ── Auth gates ────────────────────────────────────────────────────────────
   if (authLoading) return <><style>{css}</style><div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}><span style={{ color: "var(--txt3)", fontSize: "12px" }}>Loading…</span></div></>;
   if (!session) return <><style>{css}</style><Auth onAuth={setSession} /></>;
+
+  // ── Onboarding gate ───────────────────────────────────────────────────────
+  // Show onboarding only once profile has loaded and onboarding_complete is false.
+  // While profile is still null (loading), skip the gate to avoid flash.
+  if (session && profile && !profile.onboarding_complete) {
+    return (
+      <>
+        <style>{css}</style>
+        <Onboarding
+          session={session}
+          onComplete={(p) => setProfile(prev => ({ ...prev, ...p, onboarding_complete: true }))}
+        />
+      </>
+    );
+  }
 
   const rec = result?.recommendation;
   const sigs = result?.signals;
@@ -520,7 +535,6 @@ export default function App() {
   const isAlpha = profile?.tier === "alpha";
   const currentPrice = result?.current_price;
 
-  // Calculate buy/sell prices from upside string e.g. "+11% upside from current price"
   const calcTargetPrice = () => {
     if (!rec?.price_target_upside || !currentPrice) return null;
     const match = rec.price_target_upside.match(/([+-]?\d+(\.\d+)?)\s*%/);
@@ -530,7 +544,6 @@ export default function App() {
   };
   const targetPrice = calcTargetPrice();
 
-  // Action box color
   const actionClass = rec?.recommendation === "BUY" ? "buy" : rec?.recommendation === "SELL" ? "sell" : "hold";
   const actionColor = rec?.recommendation === "BUY" ? "g" : rec?.recommendation === "SELL" ? "r" : "a";
 
@@ -538,7 +551,6 @@ export default function App() {
     <>
       <style>{css}</style>
 
-      {/* Global tooltip that renders on top of everything */}
       {tipState && (
         <div className="g-tip" style={{ left: Math.min(tipState.x + 16, window.innerWidth - 260), top: tipState.y - 90, position: "fixed", zIndex: 99999, pointerEvents: "none" }}>
           <div className="g-tip-label">{tipState.label}</div>
@@ -651,7 +663,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Price banner with buy/sell price */}
             <div className="price-banner">
               <div className="pb-cell">
                 <div className="pb-label" onMouseMove={(e) => setTipState({ label: "Current Price", def: TOOLTIPS["Current Price"], x: e.clientX, y: e.clientY })} onMouseLeave={() => setTipState(null)} style={{cursor:"help",borderBottom:"1px dashed rgba(148,163,184,0.3)",display:"inline-block"}}>Current Price</div>
@@ -685,10 +696,8 @@ export default function App() {
               </div>
             </div>
 
-            {/* Chart */}
             <PriceChart ticker={result.ticker} />
 
-            {/* Signals with working tooltips */}
             <div className="sigs">
               {[{l:"Fundamental",s:sigs.financial},{l:"Sentiment",s:sigs.sentiment},{l:"Technical",s:sigs.technical},{l:"SEC Filings",s:sigs.sec}].map(({l,s}) => (
                 <div key={l} className="sc">
@@ -712,19 +721,13 @@ export default function App() {
                 <div className="ph"><span className="pt">Key Metrics</span></div>
                 <div className="pb">
                   <div className="kv">
-                    <span className="kk"
-                      onMouseMove={(e) => setTipState({ label: "Price Target", def: TOOLTIPS["Price Target"], x: e.clientX, y: e.clientY })}
-                      onMouseLeave={() => setTipState(null)}
-                      style={{ cursor: "help", borderBottom: "1px dashed rgba(100,116,139,0.4)" }}>Price Target</span>
+                    <span className="kk" onMouseMove={(e) => setTipState({ label: "Price Target", def: TOOLTIPS["Price Target"], x: e.clientX, y: e.clientY })} onMouseLeave={() => setTipState(null)} style={{ cursor: "help", borderBottom: "1px dashed rgba(100,116,139,0.4)" }}>Price Target</span>
                     <span className="kv-v g">{rec.price_target_upside}</span>
                   </div>
                   <div className="kv"><span className="kk" onMouseMove={(e) => setTipState({ label: "Horizon", def: TOOLTIPS["Horizon"], x: e.clientX, y: e.clientY })} onMouseLeave={() => setTipState(null)} style={{cursor:"help",borderBottom:"1px dashed rgba(100,116,139,0.4)"}}>Horizon</span><span className="kv-v">{rec.investment_horizon}</span></div>
                   {fin && <>
                     <div className="kv">
-                      <span className="kk"
-                        onMouseMove={(e) => setTipState({ label: "Health Score", def: TOOLTIPS["Health Score"], x: e.clientX, y: e.clientY })}
-                        onMouseLeave={() => setTipState(null)}
-                        style={{ cursor: "help", borderBottom: "1px dashed rgba(100,116,139,0.4)" }}>Health Score</span>
+                      <span className="kk" onMouseMove={(e) => setTipState({ label: "Health Score", def: TOOLTIPS["Health Score"], x: e.clientX, y: e.clientY })} onMouseLeave={() => setTipState(null)} style={{ cursor: "help", borderBottom: "1px dashed rgba(100,116,139,0.4)" }}>Health Score</span>
                       <span className="kv-v b">{fin.financial_health_score?.split("/")[0]?.split(" ")[0]}/10</span>
                     </div>
                     <div className="kv"><span className="kk" onMouseMove={(e) => setTipState({ label: "Position Size", def: TOOLTIPS["Position Size"], x: e.clientX, y: e.clientY })} onMouseLeave={() => setTipState(null)} style={{cursor:"help",borderBottom:"1px dashed rgba(100,116,139,0.4)"}}>Position Size</span><span className="kv-v">{rec.position_sizing?.split(" ").slice(0,2).join(" ")}</span></div>
@@ -766,12 +769,7 @@ export default function App() {
                     {l:"Volume Ratio",v:`${ti.volume?.ratio}×`,c:ti.volume?.ratio>1.5?"var(--blue-l)":"var(--txt)",s:"vs 20-day avg"},
                   ].map(({l,v,c,s}) => (
                     <div key={l} className="tc">
-                      <div className="tl"
-                        onMouseMove={(e) => TOOLTIPS[l] && setTipState({ label: l, def: TOOLTIPS[l], x: e.clientX, y: e.clientY })}
-                        onMouseLeave={() => setTipState(null)}
-                        style={TOOLTIPS[l] ? { cursor: "help", borderBottom: "1px dashed rgba(148,163,184,0.3)", display: "inline-block" } : {}}>
-                        {l}
-                      </div>
+                      <div className="tl" onMouseMove={(e) => TOOLTIPS[l] && setTipState({ label: l, def: TOOLTIPS[l], x: e.clientX, y: e.clientY })} onMouseLeave={() => setTipState(null)} style={TOOLTIPS[l] ? { cursor: "help", borderBottom: "1px dashed rgba(148,163,184,0.3)", display: "inline-block" } : {}}>{l}</div>
                       <div className="tv" style={{color:c}}>{v}</div>
                       <div className="ts">{s}</div>
                     </div>

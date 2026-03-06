@@ -1,7 +1,7 @@
 {
   "ticker": "MSFT",
   "company_name": "Microsoft Corporation",
-  "current_price": 403.93,
+  "current_price": 408.36,
   "signals": {
     "financial": "BULLISH",
     "sentiment": "NEUTRAL",
@@ -11,22 +11,23 @@
   "recommendation": {
     "recommendation": "BUY",
     "confidence_score": 0.72,
-    "price_target_upside": "47.5% upside from current price",
-    "investment_horizon": "medium-term",
-    "thesis": "Microsoft presents a compelling risk-reward opportunity trading 27% below its 52-week high despite maintaining exceptional fundamentals with 16.7% revenue growth, 40% profit margins, and $53.6B in free cash flow. The company's dominant position in secular growth markets (cloud, AI) combined with analyst price targets at $596 versus current $404 suggests significant undervaluation. While technical indicators show near-term weakness, oversold conditions and stabilizing momentum indicators suggest downside is limited, making current levels an attractive entry point for medium-term appreciation as AI monetization concerns prove overdone.",
-    "bull_case": "Microsoft's fortress balance sheet, market-leading cloud infrastructure, and early AI leadership through OpenAI partnership position the company to capture disproportionate value from the multi-trillion dollar AI transformation over the next 2-3 years. The 21.4x forward P/E represents a significant discount to growth rate and historical multiples, with analyst consensus at $596 implying 47% upside as monetization clarity emerges.",
-    "bear_case": "Intensifying competition from OpenAI potentially disrupting GitHub and other developer tools, combined with underwhelming Azure growth or delayed AI revenue realization, could extend the current underperformance and valuation compression. Technical breakdown below recent lows around $380 would signal further de-rating risk, particularly if broader tech sentiment deteriorates or margin pressures emerge from AI infrastructure investments.",
+    "price_target_upside": "46% upside from current price",
+    "investment_horizon": "long-term",
+    "thesis": "Microsoft is one of the world's strongest technology companies with excellent profit margins and a leading position in cloud computing (Azure) and artificial intelligence. While the stock has underperformed recently and sits 26% below its peak, the business fundamentals remain rock-solid with massive cash generation and growing revenue. For a long-term investor comfortable with some ups and downs, this temporary weakness presents a good opportunity to buy a high-quality company at a more reasonable price than earlier in the year.",
+    "bull_case": "Microsoft generates over $53 billion in free cash every year and dominates the profitable cloud computing and business software markets, which continue growing as more companies move online and adopt AI tools. Analysts believe the stock is undervalued and could rise 46% as the market recognizes the company's strong position in the AI revolution through products like Azure and Copilot.",
+    "bear_case": "The stock has fallen 26% from its high and has lagged behind the overall market over the past year, suggesting investors are worried about something\u2014possibly the high valuation or whether AI investments will pay off quickly enough. If the broader technology sector faces a downturn or concerns about expensive 'Magnificent 7' tech stocks intensify, Microsoft could continue declining in the short term before recovering.",
     "key_catalysts": [
-      "Q1 FY2026 earnings demonstrating accelerating Azure growth and tangible AI revenue contribution",
-      "Technical breakout above $400 SMA 20 level confirming trend reversal and attracting momentum buyers",
-      "Major AI product launches or enterprise adoption milestones validating Microsoft's Copilot monetization strategy"
+      "Continued growth in Azure cloud services as businesses increase AI and cloud spending",
+      "New AI products like Copilot gaining widespread adoption and generating revenue",
+      "Strong quarterly earnings that prove the company's AI investments are paying off"
     ],
     "key_risks": [
-      "OpenAI competitive threat to GitHub and developer tools ecosystem eroding high-margin revenue streams",
-      "Continued technical deterioration below $380 support triggering institutional redemptions and momentum selling",
-      "AI infrastructure investment requirements compressing margins without corresponding revenue acceleration"
+      "Stock could continue falling in the short term if tech sector weakness persists",
+      "High competition in AI from companies like Google and Amazon could limit growth",
+      "Economic slowdown could cause businesses to cut spending on cloud services and software"
     ],
-    "position_sizing": "medium position - Strong fundamentals and attractive valuation support meaningful allocation, but technical weakness and mixed sentiment warrant waiting for confirmation of stabilization around $400 level before moving to large position. Scale in over 4-6 weeks averaging around current levels."
+    "position_sizing": "Given your moderate risk tolerance and long-term goals, consider starting with $150-200 per month into Microsoft, which would be about 40-50% of your budget. This leaves room to invest the remaining $200-300 monthly into other stocks or funds to build a diversified portfolio. If the stock drops more in the coming months, you could increase to $250-300/month to take advantage of lower prices, but never invest money you might need in the next 3-5 years.",
+    "beginner_summary": "Start by investing $150-200 per month in Microsoft stock\u2014it's a high-quality company temporarily on sale, which is good for long-term investors like you. Don't put all your money in one stock though; use the rest of your monthly budget to build a diversified portfolio with other investments."
   },
   "agent_results": {
     "financial": {
@@ -42,12 +43,12 @@
           "description": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 co"
         },
         "financials": {
-          "current_price": 403.93,
-          "day_change_pct": 1.35,
-          "market_cap": 3002160381952,
-          "pe_ratio": 25.277222,
-          "forward_pe": 21.437473,
-          "eps": 15.98,
+          "current_price": 408.36,
+          "day_change_pct": 0.78,
+          "market_cap": 3035048706048,
+          "pe_ratio": 25.586153,
+          "forward_pe": 21.672318,
+          "eps": 15.96,
           "revenue": 305453006848,
           "revenue_growth": 0.167,
           "gross_margins": 0.68586,
@@ -55,40 +56,40 @@
           "debt_to_equity": 31.539,
           "return_on_equity": 0.34390998,
           "free_cashflow": 53640626176,
-          "dividend_yield": 0.91,
+          "dividend_yield": 0.9,
           "52_week_high": 555.45,
           "52_week_low": 344.79,
           "analyst_target_price": 595.99567,
           "recommendation": "strong_buy"
         },
         "performance": {
-          "1_week": 0.83,
-          "1_month": -4.37,
-          "1_year": 4.77
+          "1_week": 3.98,
+          "1_month": -1.18,
+          "1_year": 2.61
         },
-        "volatility_annualized_pct": 24.13,
-        "benchmark_1yr_return": 17.91,
-        "price_history": "                                 Open        High         Low       Close    Volume  Dividends  Stock Splits\nDate                                                                                                        \n2024-03-04 00:00:00-05:00  407.190189  411.041087  406.087124  408.647827  17596000        0.0           0.0\n2024-03-05 00:00:00-05:00  407.702291  407.987915  394.583668  396.563263  26919200        0.0           0.0\n2024-03-06 00:00:00-05:00  396.878421  399.035318  392.367669  396.011719  22344100        0.0           0.0\n2024-03-07 00:00:00-05:00  399.980833  403.585510  396.159481  402.955200  18718500        0.0           0.0\n2024-03-08 00:00:00-05:00  401.792972  404.215806  398.217841  400.079285  18002200        0.0           0.0\n...                               ...         ...         ...         ...       ...        ...           ...\n2026-02-25 00:00:00-05:00  390.529999  401.470001  390.160004  400.600006  43625500        0.0           0.0\n2026-02-26 00:00:00-05:00  404.709991  407.489990  398.739990  401.720001  34405900        0.0           0.0\n2026-02-27 00:00:00-05:00  390.880005  396.820007  389.880005  392.739990  51367200        0.0           0.0\n2026-03-02 00:00:00-05:00  392.859985  401.190002  390.630005  398.549988  35474900        0.0           0.0\n2026-03-03 00:00:00-05:00  393.140015  406.700012  392.679993  403.929993  37947881        0.0           0.0\n\n[501 rows x 7 columns]",
+        "volatility_annualized_pct": 24.02,
+        "benchmark_1yr_return": 17.37,
+        "price_history": "                                 Open        High         Low       Close    Volume  Dividends  Stock Splits\nDate                                                                                                        \n2024-03-05 00:00:00-05:00  407.702260  407.987884  394.583638  396.563232  26919200        0.0           0.0\n2024-03-06 00:00:00-05:00  396.878421  399.035318  392.367669  396.011719  22344100        0.0           0.0\n2024-03-07 00:00:00-05:00  399.980803  403.585479  396.159451  402.955170  18718500        0.0           0.0\n2024-03-08 00:00:00-05:00  401.792941  404.215776  398.217810  400.079254  18002200        0.0           0.0\n2024-03-11 00:00:00-04:00  397.656477  399.547436  395.194269  398.404968  16120800        0.0           0.0\n...                               ...         ...         ...         ...       ...        ...           ...\n2026-02-27 00:00:00-05:00  390.880005  396.820007  389.880005  392.739990  51367200        0.0           0.0\n2026-03-02 00:00:00-05:00  392.859985  401.190002  390.630005  398.549988  35474900        0.0           0.0\n2026-03-03 00:00:00-05:00  393.140015  406.700012  392.670013  403.929993  38199200        0.0           0.0\n2026-03-04 00:00:00-05:00  401.269989  411.029999  400.309998  405.200012  35750900        0.0           0.0\n2026-03-05 00:00:00-05:00  404.434998  411.609985  404.399994  408.355011  19959076        0.0           0.0\n\n[502 rows x 7 columns]",
         "status": "success"
       },
       "analysis": {
-        "valuation_assessment": "Stock appears fairly valued to slightly expensive with a forward P/E of 21.4x, trading below historical highs but reasonable given strong fundamentals and growth profile.",
-        "financial_health_score": "9/10 - Exceptional financial health with 68.6% gross margins, 39% net margins, strong ROE of 34.4%, and robust free cash flow of $53.6B.",
-        "growth_outlook": "Solid growth trajectory with 16.7% revenue growth driven by cloud computing and AI initiatives, though recent underperformance vs SPY suggests near-term headwinds.",
+        "valuation_assessment": "The stock appears fairly valued to slightly undervalued trading at 25.6x P/E versus a forward P/E of 21.7x, reflecting healthy earnings growth expectations, though it's trading 26% below its 52-week high.",
+        "financial_health_score": "9/10 - Exceptional financial health with robust gross margins of 69%, profit margins of 39%, strong ROE of 34%, massive free cash flow of $53.6B, and manageable debt levels.",
+        "growth_outlook": "Strong growth trajectory with 16.7% revenue growth, supported by cloud computing expansion, AI investments, and recurring enterprise subscription revenues.",
         "key_strengths": [
-          "Dominant market position in enterprise software and cloud infrastructure with Azure",
-          "Exceptional profitability metrics with nearly 40% profit margins and 34% ROE",
-          "Strong free cash flow generation of $53.6B supporting shareholder returns and reinvestment"
+          "Dominant market position in cloud infrastructure (Azure) and productivity software with recurring revenue model",
+          "Outstanding profitability metrics with nearly 70% gross margins and 39% profit margins generating $53.6B in free cash flow",
+          "Strong balance sheet with low leverage (31.5% D/E) and exceptional 34% return on equity"
         ],
         "key_concerns": [
-          "Significant underperformance vs SPY over the past year (4.77% vs 17.91%) and negative momentum in recent month (-4.37%)",
-          "Trading 27% below 52-week high of $555.45, indicating potential market concerns about AI monetization or valuation compression"
+          "Significant underperformance versus SPY benchmark over 1-year period (2.61% vs 17.37%), indicating relative weakness",
+          "Currently trading 26% below 52-week high of $555, suggesting recent momentum concerns and potential market uncertainty around valuation"
         ],
         "fundamental_signal": "BULLISH",
-        "fundamental_confidence": 0.75,
-        "analyst_summary": "Microsoft demonstrates exceptional fundamental strength with best-in-class margins, robust cash generation, and strong positioning in secular growth areas like cloud and AI. Despite recent underperformance and trading well off highs, the combination of solid 16.7% revenue growth, improving forward valuation (21.4x forward P/E), and strong analyst conviction (target of $596 vs current $404) supports a bullish stance. The company's financial fortress and competitive moat justify maintaining exposure despite near-term volatility."
+        "fundamental_confidence": 0.78,
+        "analyst_summary": "Microsoft demonstrates exceptional fundamental strength with superior margins, robust cash generation, and solid revenue growth driven by cloud and AI initiatives. Despite recent underperformance versus the broader market, the combination of improving valuation (forward P/E compression), strong analyst conviction (strong buy rating with 46% upside to target), and best-in-class financial metrics supports a bullish outlook. The company's competitive moat in enterprise software and cloud infrastructure positions it well for continued growth."
       },
-      "financial_summary": "\nCOMPANY: Microsoft Corporation (MSFT)\nSECTOR: Technology | INDUSTRY: Software - Infrastructure\n\nPRICE METRICS:\n- Current Price: $403.93\n- Day Change: 1.35%\n- 52-Week High: 555.45 | Low: 344.79\n- Analyst Target: 595.99567\n- Analyst Recommendation: strong_buy\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: 0.83% \n- 1 Month: -4.37%\n- 1 Year: 4.77% vs SPY: 17.91%\n\nVALUATION:\n- Market Cap: $3.0T\n- P/E Ratio: 25.277222\n- Forward P/E: 21.437473\n- EPS: 15.98\n\nFINANCIAL HEALTH:\n- Revenue: $305.5B\n- Revenue Growth: 0.167\n- Gross Margins: 0.68586\n- Profit Margins: 0.39044\n- Debt/Equity: 31.539\n- Return on Equity: 0.34390998\n- Free Cash Flow: $53.6B\n- Dividend Yield: 0.91\n\nVOLATILITY: 24.13% annualized\n",
+      "financial_summary": "\nCOMPANY: Microsoft Corporation (MSFT)\nSECTOR: Technology | INDUSTRY: Software - Infrastructure\n\nPRICE METRICS:\n- Current Price: $408.36\n- Day Change: 0.78%\n- 52-Week High: 555.45 | Low: 344.79\n- Analyst Target: 595.99567\n- Analyst Recommendation: strong_buy\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: 3.98% \n- 1 Month: -1.18%\n- 1 Year: 2.61% vs SPY: 17.37%\n\nVALUATION:\n- Market Cap: $3.0T\n- P/E Ratio: 25.586153\n- Forward P/E: 21.672318\n- EPS: 15.96\n\nFINANCIAL HEALTH:\n- Revenue: $305.5B\n- Revenue Growth: 0.167\n- Gross Margins: 0.68586\n- Profit Margins: 0.39044\n- Debt/Equity: 31.539\n- Return on Equity: 0.34390998\n- Free Cash Flow: $53.6B\n- Dividend Yield: 0.9\n\nVOLATILITY: 24.02% annualized\n",
       "status": "success"
     },
     "sentiment": {
@@ -96,50 +97,80 @@
       "news_count": 10,
       "analysis": {
         "overall_sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "news_summary": "Microsoft faces mixed signals with competitive pressures from OpenAI developing a GitHub rival and geopolitical risks affecting Middle East data centers, offset by positive analyst price targets and resilient stock performance. Leadership changes in gaming division and hedge fund selling activity add uncertainty while broader positive sentiment around AI stocks provides sector tailwinds.",
+        "sentiment_score": 0.52,
+        "news_summary": "Microsoft appears prominently in analyst top picks amid AI energy pledges and mining partnerships, while broader tech sector faces mixed signals with software stocks rallying but geopolitical tensions and concerns about Mag 7 valuations creating uncertainty. The overall market context shows continued AI infrastructure investment alongside rising volatility and war risk concerns.",
         "positive_catalysts": [
-          "Wall Street analysts predict 40-50% upside potential for Microsoft stock",
-          "Microsoft stock showing resilience and bucking broader market selloff",
-          "Strong positioning in AI sector alongside Nvidia and other Magnificent Seven stocks"
+          "Microsoft named as top tech pick by Wedbush analysts amid Iran tensions",
+          "Big Tech including MSFT signs AI energy cost pledge protecting ratepayers from rising electricity costs",
+          "Software sector rallying with 2.6% gains as IGV rebounds",
+          "Microsoft signs AI deal with Codelco for mining operations showing enterprise AI adoption",
+          "Continued AI data center spending momentum evidenced by sector activity"
         ],
         "negative_risks": [
-          "OpenAI developing competing code-hosting platform to challenge Microsoft's GitHub",
-          "Billionaire hedge fund manager Daniel Loeb selling Microsoft position in Q4",
-          "Geopolitical risks with drone attacks on Middle East data centers affecting cloud operations",
-          "Leadership transition uncertainty with new Microsoft Gaming CEO appointment"
+          "Article declares 'The Mag 7 Are Dead' citing overpricing and vulnerability to AI disruption",
+          "Geopolitical tensions with Iran creating market uncertainty",
+          "VIX elevated at 23.57 indicating heightened volatility",
+          "Oil prices up double digits in one month pressuring tech margins",
+          "Broader market indexes down despite individual sector strength"
         ],
-        "media_tone": "Media coverage is balanced with cautious optimism on long-term prospects tempered by immediate competitive and geopolitical concerns.",
+        "media_tone": "Media coverage presents a conflicting narrative with positive mentions of Microsoft in analyst picks and AI deals offset by bearish commentary on Mag 7 valuations and geopolitical risk concerns.",
         "sentiment_signal": "NEUTRAL",
-        "sentiment_confidence": 0.65
+        "sentiment_confidence": 0.58
+      },
+      "status": "success"
+    },
+    "rag": {
+      "ticker": "MSFT",
+      "filings_analyzed": 4,
+      "chunks_indexed": 225,
+      "analysis": {
+        "key_risk_factors": [
+          "Material breach of applicable law with intent to inflict harm on Grantor",
+          "Trust fund liquidity risk when insufficient cash available for required distributions",
+          "Counterparty risk related to trust arrangements and beneficiary representatives"
+        ],
+        "growth_drivers": [
+          "Continuation of executive coverage through trust structures indicating organizational stability",
+          "Structured financial instruments with government issue backing"
+        ],
+        "management_tone": "Management demonstrates confidence through long-term trust arrangements spanning multiple decades (1993-2025) for executive protection and continuity.",
+        "competitive_position": "Insufficient information provided in these excerpts to assess competitive moat, as excerpts focus primarily on trust agreements and financial instruments rather than core business operations.",
+        "red_flags": [],
+        "positive_signals": [
+          "Quarterly report filed on schedule (October 29, 2025) with independent auditor review",
+          "Long-term institutional continuity evidenced by multiple trust arrangements maintained over 32+ years"
+        ],
+        "sec_signal": "NEUTRAL",
+        "sec_confidence": 0.3,
+        "sec_summary": "The provided excerpts are primarily administrative and legal boilerplate from trust agreements and debt instrument definitions, lacking substantive business performance metrics. The timely filing and continuation of executive protection trusts suggest operational stability, but insufficient operational or financial data prevents meaningful bullish or bearish assessment. More substantive sections of the 10-Q would be needed for comprehensive analysis."
       },
       "status": "success"
     },
     "technical": {
       "ticker": "MSFT",
       "indicators": {
-        "rsi": 44.06,
+        "rsi": 55.83,
         "macd": {
-          "macd": -12.4145,
-          "signal": -15.2919,
-          "histogram": 2.8774
+          "macd": -9.6895,
+          "signal": -13.5005,
+          "histogram": 3.811
         },
         "bollinger_bands": {
-          "upper": 415.73,
-          "middle": 400.38,
-          "lower": 385.03,
-          "position_pct": 61.56
+          "upper": 413.93,
+          "middle": 399.88,
+          "lower": 385.83,
+          "position_pct": 80.14
         },
         "moving_averages": {
-          "sma_20": 400.38,
-          "sma_50": 441.51,
-          "sma_200": 483.31,
+          "sma_20": 399.88,
+          "sma_50": 438.43,
+          "sma_200": 482.87,
           "ema_20": 406.87
         },
         "volume": {
-          "current": 37947881,
-          "avg_20d": 41573009,
-          "ratio": 0.91
+          "current": 19959076,
+          "avg_20d": 39049248,
+          "ratio": 0.51
         },
         "support_resistance": {
           "52w_high": 488.58,
@@ -149,7 +180,7 @@
           {
             "indicator": "RSI",
             "signal": "NEUTRAL",
-            "reason": "Neutral at 44.06"
+            "reason": "Neutral at 55.83"
           },
           {
             "indicator": "MACD",
@@ -163,64 +194,38 @@
           },
           {
             "indicator": "BBANDS",
-            "signal": "NEUTRAL",
-            "reason": "Price mid-band (61.56%)"
+            "signal": "BEARISH",
+            "reason": "Price near upper band (80.14%)"
           }
         ],
         "overall_signal": "NEUTRAL",
         "bullish_count": 1,
-        "bearish_count": 1,
+        "bearish_count": 2,
         "status": "success"
       },
       "analysis": {
-        "trend_assessment": "MSFT is in a clear downtrend with price trading below all major moving averages (SMA 20/50/200), indicating persistent selling pressure.",
-        "momentum_assessment": "Momentum shows early signs of stabilization with RSI at 44.06 in neutral territory and MACD histogram turning positive, suggesting potential bearish momentum exhaustion.",
+        "trend_assessment": "MSFT is in a downtrend with price below all major moving averages (SMA 20/50/200), indicating sustained bearish momentum across multiple timeframes.",
+        "momentum_assessment": "Momentum shows early signs of stabilization with RSI at neutral 55.83 and MACD histogram turning positive at 3.811, suggesting decreasing bearish pressure.",
         "support_level": 381.71,
-        "resistance_level": 441.51,
+        "resistance_level": 438.43,
         "technical_signal": "NEUTRAL",
         "technical_confidence": 0.55,
         "key_levels_to_watch": [
-          "400.38 (SMA 20)",
-          "381.71 (52-week low)"
+          "399.88 (SMA 20)",
+          "438.43 (SMA 50)"
         ],
-        "technical_summary": "MSFT exhibits a bearish trend structure trading below all key moving averages, but momentum indicators suggest oversold conditions may be stabilizing. The Bollinger Position at 61.56% and positive MACD histogram divergence indicate potential for a near-term bounce, though the downward sloping moving averages suggest any rally may face significant resistance. Risk/reward favors waiting for a break above the SMA 20 at 400.38 for bullish confirmation or a test of 52-week lows for oversold bounce opportunities."
-      },
-      "status": "success"
-    },
-    "rag": {
-      "ticker": "MSFT",
-      "filings_analyzed": 4,
-      "chunks_indexed": 225,
-      "analysis": {
-        "key_risk_factors": [
-          "Material breach of applicable law causing harm to the company",
-          "Trust fund liquidity constraints affecting required distributions",
-          "Complex fiduciary arrangements with potential for misalignment"
-        ],
-        "growth_drivers": [
-          "Quarterly reporting infrastructure in place for Q1 FY2026",
-          "Established trust mechanisms for executive continuity"
-        ],
-        "management_tone": "Management demonstrates procedural compliance and risk mitigation focus through structured trust arrangements and interim financial reporting.",
-        "competitive_position": "Insufficient information provided in these excerpts to assess competitive positioning or market moat strength.",
-        "red_flags": [
-          "Trust fund insufficient cash scenarios requiring grantor notification",
-          "Heavy reliance on legal and fiduciary structures suggesting potential governance complexity",
-          "Excerpts heavily focused on legal provisions rather than operational performance"
-        ],
-        "positive_signals": [
-          "Timely quarterly financial reporting with independent auditor review",
-          "Established corporate governance frameworks through multiple trust arrangements",
-          "Long-term executive coverage provisions dating back to 1993"
-        ],
-        "sec_signal": "NEUTRAL",
-        "sec_confidence": 0.3,
-        "sec_summary": "The provided SEC filing excerpts primarily contain legal and trust agreement language rather than substantive business performance data. The presence of routine quarterly reporting (Q1 FY2026) and established governance structures are procedurally positive, but the lack of revenue, operational, or competitive metrics prevents meaningful fundamental analysis. The excerpts suggest administrative compliance rather than revealing strategic direction or financial health."
+        "technical_summary": "MSFT presents a conflicted technical picture with price in a clear downtrend below all moving averages, yet showing nascent reversal signals via positive MACD histogram and high Bollinger Band positioning at 80.14%. The low volume ratio of 0.51x suggests lack of conviction in current price action. A break above SMA 20 at 399.88 would provide initial confirmation of trend reversal, while failure to hold current levels risks testing 52-week lows."
       },
       "status": "success"
     }
   },
-  "elapsed_seconds": 56.5,
-  "errors": [],
-  "status": "success"
+  "elapsed_seconds": 39.4,
+  "errors": {},
+  "status": "success",
+  "from_cache": false,
+  "user_profile": {
+    "experience": "beginner",
+    "goal": "grow_savings",
+    "risk_tolerance": "medium"
+  }
 }

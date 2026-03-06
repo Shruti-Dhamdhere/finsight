@@ -1,7 +1,7 @@
 {
   "ticker": "NVDA",
   "company_name": "NVIDIA Corporation",
-  "current_price": 177.19,
+  "current_price": 183.34,
   "signals": {
     "financial": "BULLISH",
     "sentiment": "NEUTRAL",
@@ -9,24 +9,25 @@
     "sec": "NEUTRAL"
   },
   "recommendation": {
-    "recommendation": "BUY",
-    "confidence_score": 0.72,
-    "price_target_upside": "48% upside from current price",
+    "recommendation": "HOLD",
+    "confidence_score": 0.45,
+    "price_target_upside": "45% upside from current price",
     "investment_horizon": "long-term",
-    "thesis": "NVDA presents a compelling long-term opportunity following recent price weakness, with the stock trading at an attractive 16.6x forward P/E despite maintaining industry-leading margins and 73% revenue growth driven by dominant AI positioning. The compression in valuation multiples combined with $58B in free cash flow generation and strong analyst conviction at $262.51 price target creates asymmetric risk-reward. While near-term technical setup remains neutral with critical resistance at $186, the structural AI tailwinds and fundamental strength justify accumulation at current levels for patient investors.",
-    "bull_case": "NVDA's 55.6% profit margins and 71% gross margins demonstrate unparalleled pricing power in AI infrastructure, while 101% ROE and explosive cash generation support continued market share dominance. The dramatic P/E compression from 43.8x to 16.6x forward represents a significant valuation reset that reduces downside risk while maintaining exposure to multi-year AI datacenter buildout cycle.",
-    "bear_case": "Recent -7.96% monthly decline and elevated 49.85% volatility suggest momentum has stalled as investor expectations become increasingly difficult to exceed, even with strong earnings beats. The 7.26x debt-to-equity ratio combined with consolidation near technical support at $175 increases risk of further downside if market sentiment deteriorates or competitive pressures emerge.",
+    "thesis": "NVIDIA is a leading company in artificial intelligence technology with impressive sales growth and profits. However, the stock experiences very large price swings (meaning it can drop significantly in short periods), the company has taken on substantial debt, and new government regulations could limit its sales. For someone who cannot afford to lose money, this investment carries too much risk right now, even though the company's long-term prospects look promising.",
+    "bull_case": "NVIDIA dominates the market for AI computer chips and is growing extremely fast (73% revenue growth), generating massive cash that could sustain growth for years. Analysts believe the stock could rise 45% based on the company's strong position in the booming AI industry.",
+    "bear_case": "The stock's price can swing wildly (50% volatility means it could easily drop 20-30% or more in months), and you could lose a significant portion of your investment in the short term. The company also has high debt levels and faces new government restrictions that could hurt sales, making it unsuitable for someone who cannot afford losses.",
     "key_catalysts": [
-      "Break above $186 resistance (SMA 20/50 convergence) confirming resumption of uptrend",
-      "Next quarterly earnings demonstrating sustained AI datacenter demand and margin expansion",
-      "New product launches or partnership announcements expanding TAM beyond current GPU dominance"
+      "Continued growth in artificial intelligence technology adoption driving demand for NVIDIA chips",
+      "Strong cash generation ($58 billion) allowing investment in new products and returning money to shareholders",
+      "Transition to newer chip models that could maintain competitive advantages"
     ],
     "key_risks": [
-      "Failure to meet elevated investor expectations in future quarters despite strong results",
-      "Technical breakdown below $175 SMA 200 support triggering momentum-based selling",
-      "Competitive threats from AMD, custom AI chips, or geopolitical restrictions on China sales"
+      "Extreme price volatility (stock can drop 20-30% quickly) that could force you to sell at a loss if you need the money",
+      "New U.S. government regulations requiring permits for chip sales globally could significantly reduce revenue",
+      "High debt levels (over 7 times the company's equity value) create financial risk if business conditions worsen"
     ],
-    "position_sizing": "medium position - strong fundamentals and valuation compression justify conviction, but elevated volatility and neutral technical/sentiment readings warrant measured entry rather than outsized allocation; consider scaling in on weakness toward $175 support or strength above $186 resistance"
+    "position_sizing": "Given your risk-averse profile and inability to afford losses, I recommend $0 allocation to NVIDIA right now. Instead, focus your $200/month on safer options like low-cost index funds (which spread risk across hundreds of companies), high-yield savings accounts, or government bonds. If you still want some technology exposure after building a 3-6 month emergency fund, consider limiting NVIDIA to no more than $20-30/month (10-15% of your budget) and only as part of a diversified portfolio.",
+    "beginner_summary": "Do not invest in NVIDIA right now given your situation. The stock is too risky and volatile for someone who cannot afford to lose money\u2014focus instead on building an emergency savings fund and investing in safer, diversified options like broad market index funds."
   },
   "agent_results": {
     "financial": {
@@ -38,16 +39,16 @@
           "sector": "Technology",
           "industry": "Semiconductors",
           "country": "United States",
-          "employees": "N/A",
-          "description": "NVIDIA Corporation, a computing infrastructure company, provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. It operates through Compute & Networking and Graphics segments. The Compute & Networking segment includes its Data Center accelerated computing and networking platforms and artificial intelligence solutions and software and automotive platforms and autonomous and electric vehicle solutions, including software. The Grap"
+          "employees": 42000,
+          "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for e"
         },
         "financials": {
-          "current_price": 177.19,
-          "day_change_pct": -4.16,
-          "market_cap": 4314045087744,
-          "pe_ratio": 43.750614,
-          "forward_pe": 16.620033,
-          "eps": 4.05,
+          "current_price": 183.34,
+          "day_change_pct": 0.16,
+          "market_cap": 4456078901248,
+          "pe_ratio": 37.416325,
+          "forward_pe": 17.067266,
+          "eps": 4.9,
           "revenue": 215938007040,
           "revenue_growth": 0.732,
           "gross_margins": 0.71068,
@@ -58,37 +59,37 @@
           "dividend_yield": 0.02,
           "52_week_high": 212.19,
           "52_week_low": 86.62,
-          "analyst_target_price": 262.50742,
+          "analyst_target_price": 265.18298,
           "recommendation": "strong_buy"
         },
         "performance": {
-          "1_week": -7.5,
-          "1_month": -7.96,
-          "1_year": 47.51
+          "1_week": 3.47,
+          "1_month": 5.25,
+          "1_year": 56.34
         },
-        "volatility_annualized_pct": 49.85,
-        "benchmark_1yr_return": 18.63,
-        "price_history": "                                 Open        High         Low       Close     Volume  Dividends  Stock Splits\nDate                                                                                                         \n2024-02-28 00:00:00-05:00   77.576768   78.889033   77.082041   77.619743  393110000      0.000           0.0\n2024-02-29 00:00:00-05:00   79.049967   79.945465   78.306378   79.067955  507289000      0.000           0.0\n2024-03-01 00:00:00-05:00   79.955454   82.254177   79.390767   82.233185  479135000      0.000           0.0\n2024-03-04 00:00:00-05:00   84.083144   87.646161   83.672377   85.189529  615616000      0.000           0.0\n2024-03-05 00:00:00-05:00   85.226520   86.053101   83.374468   85.920166  520639000      0.004           0.0\n...                               ...         ...         ...         ...        ...        ...           ...\n2026-02-23 00:00:00-05:00  191.399994  193.949997  189.580002  191.550003  171584800      0.000           0.0\n2026-02-24 00:00:00-05:00  191.490005  193.770004  187.399994  192.850006  175123600      0.000           0.0\n2026-02-25 00:00:00-05:00  194.449997  197.630005  193.789993  195.559998  250637100      0.000           0.0\n2026-02-26 00:00:00-05:00  194.270004  194.289993  184.320007  184.889999  360807900      0.000           0.0\n2026-02-27 00:00:00-05:00  181.250000  182.589996  176.380005  177.190002  310523200      0.000           0.0\n\n[502 rows x 7 columns]",
+        "volatility_annualized_pct": 49.77,
+        "benchmark_1yr_return": 18.22,
+        "price_history": "                                Close        High         Low        Open      Volume  Dividends  Stock Splits\nDate                                                                                                          \n2024-03-05 00:00:00-05:00         NaN         NaN         NaN         NaN           0      0.004           0.0\n2024-03-06 00:00:00-05:00   88.654770   89.678250   86.985623   87.977122   582520000      0.000           0.0\n2024-03-07 00:00:00-05:00   92.621742   92.719692   89.556305   90.112021   608119000      0.000           0.0\n2024-03-08 00:00:00-05:00   87.483368   97.350336   86.461886   95.089488  1142269000      0.000           0.0\n2024-03-11 00:00:00-04:00   85.730247   88.751700   84.123066   86.384912   678364000      0.000           0.0\n...                               ...         ...         ...         ...         ...        ...           ...\n2026-02-27 00:00:00-05:00  177.190002  182.589996  176.380005  181.250000   311636500      0.000           0.0\n2026-03-02 00:00:00-05:00  182.479996  183.460007  174.639999  175.009995   209095300      0.000           0.0\n2026-03-03 00:00:00-05:00  180.050003  180.899994  176.919998  178.490005   178099400      0.000           0.0\n2026-03-04 00:00:00-05:00  183.039993  184.699997  180.059998  180.440002   177731200      0.000           0.0\n2026-03-05 00:00:00-05:00  183.339996  184.059998  177.889999  181.169998   190766610      0.000           0.0\n\n[502 rows x 7 columns]",
         "status": "success"
       },
       "analysis": {
-        "valuation_assessment": "The stock appears fairly valued with a current P/E of 43.8x trailing but attractively priced at 16.6x forward P/E, suggesting strong expected earnings growth ahead despite trading below analyst target of $262.51.",
-        "financial_health_score": "9 - Exceptional financial health with outstanding 55.6% profit margins, 71% gross margins, and stellar 101% ROE, though elevated 7.26x debt-to-equity ratio warrants monitoring.",
-        "growth_outlook": "Exceptional growth trajectory with 73.2% revenue growth driven by dominant AI chip positioning, though recent weakness and high volatility suggest near-term consolidation.",
+        "valuation_assessment": "The stock appears fairly valued with a current P/E of 37.4x declining to an attractive forward P/E of 17.1x, suggesting strong earnings growth is already materializing and priced at reasonable multiples relative to its growth trajectory.",
+        "financial_health_score": "9/10 - Exceptional profitability with 55.6% net margins, 71% gross margins, and 101% ROE, though the elevated 7.26 debt-to-equity ratio warrants monitoring despite strong cash generation.",
+        "growth_outlook": "Outstanding growth momentum with 73.2% revenue growth driven by AI/datacenter demand, supported by $58.1B in free cash flow providing substantial reinvestment capacity.",
         "key_strengths": [
-          "Industry-leading profit margins of 55.6% and gross margins of 71% demonstrate exceptional pricing power and operational efficiency",
-          "Dominant position in AI/datacenter GPU market driving 73.2% revenue growth with $58.1B in free cash flow generation",
-          "Strong analyst conviction with 'strong buy' rating and 48% upside to $262.51 target, supported by 101% return on equity"
+          "Dominant market position in AI accelerators with industry-leading gross margins of 71% and net margins of 55.6%",
+          "Explosive 73.2% revenue growth reaching $215.9B with exceptional ROE of 101% demonstrating superior capital efficiency",
+          "Massive free cash flow generation of $58.1B providing flexibility for R&D, shareholder returns, and strategic investments"
         ],
         "key_concerns": [
-          "Recent momentum deterioration with -7.5% weekly and -7.96% monthly performance suggesting potential near-term headwinds or profit-taking",
-          "Elevated volatility at 49.85% annualized and 7.26x debt-to-equity ratio increase risk profile despite strong fundamentals"
+          "High debt-to-equity ratio of 7.26 creates financial leverage risk despite strong operating performance",
+          "Elevated volatility of 49.77% and stock trading 13.6% below 52-week high suggests potential near-term consolidation or profit-taking pressure"
         ],
         "fundamental_signal": "BULLISH",
-        "fundamental_confidence": 0.82,
-        "analyst_summary": "NVDA demonstrates exceptional fundamentals with industry-leading margins, explosive revenue growth, and dominant AI market positioning justifying premium valuation. Despite near-term price weakness and elevated volatility, the dramatic compression from 43.8x to 16.6x forward P/E indicates strong earnings acceleration, while $4.3T market cap and robust free cash flow provide stability. Recent pullback presents attractive entry point for long-term investors given structural AI tailwinds and strong analyst conviction."
+        "fundamental_confidence": 0.88,
+        "analyst_summary": "NVDA demonstrates exceptional fundamental strength with industry-leading profitability metrics, extraordinary revenue growth of 73%, and dominant positioning in AI infrastructure. The compression from 37x to 17x forward P/E indicates significant earnings expansion is underway, while the $58.1B free cash flow and triple-digit ROE underscore best-in-class execution. Despite elevated debt levels and volatility, the strong buy consensus with a $265 price target (+45% upside) is well-supported by fundamentals."
       },
-      "financial_summary": "\nCOMPANY: NVIDIA Corporation (NVDA)\nSECTOR: Technology | INDUSTRY: Semiconductors\n\nPRICE METRICS:\n- Current Price: $177.19\n- Day Change: -4.16%\n- 52-Week High: 212.19 | Low: 86.62\n- Analyst Target: 262.50742\n- Analyst Recommendation: strong_buy\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: -7.5% \n- 1 Month: -7.96%\n- 1 Year: 47.51% vs SPY: 18.63%\n\nVALUATION:\n- Market Cap: $4.3T\n- P/E Ratio: 43.750614\n- Forward P/E: 16.620033\n- EPS: 4.05\n\nFINANCIAL HEALTH:\n- Revenue: $215.9B\n- Revenue Growth: 0.732\n- Gross Margins: 0.71068\n- Profit Margins: 0.55603004\n- Debt/Equity: 7.255\n- Return on Equity: 1.01485\n- Free Cash Flow: $58.1B\n- Dividend Yield: 0.02\n\nVOLATILITY: 49.85% annualized\n",
+      "financial_summary": "\nCOMPANY: NVIDIA Corporation (NVDA)\nSECTOR: Technology | INDUSTRY: Semiconductors\n\nPRICE METRICS:\n- Current Price: $183.34\n- Day Change: 0.16%\n- 52-Week High: 212.19 | Low: 86.62\n- Analyst Target: 265.18298\n- Analyst Recommendation: strong_buy\n\nPERFORMANCE vs BENCHMARK (SPY):\n- 1 Week: 3.47% \n- 1 Month: 5.25%\n- 1 Year: 56.34% vs SPY: 18.22%\n\nVALUATION:\n- Market Cap: $4.5T\n- P/E Ratio: 37.416325\n- Forward P/E: 17.067266\n- EPS: 4.9\n\nFINANCIAL HEALTH:\n- Revenue: $215.9B\n- Revenue Growth: 0.732\n- Gross Margins: 0.71068\n- Profit Margins: 0.55603004\n- Debt/Equity: 7.255\n- Return on Equity: 1.01485\n- Free Cash Flow: $58.1B\n- Dividend Yield: 0.02\n\nVOLATILITY: 49.77% annualized\n",
       "status": "success"
     },
     "sentiment": {
@@ -97,60 +98,89 @@
       "analysis": {
         "overall_sentiment": "NEUTRAL",
         "sentiment_score": 0.45,
-        "news_summary": "Nvidia delivered blockbuster Q4 earnings with raised guidance, but the stock experienced muted after-hours reaction as Wall Street expectations have become increasingly difficult to surpass. While analysts continue to view NVDA as the AI bellwether, investor sentiment reflects concerns about whether the company can continue delivering outsized results each quarter.",
+        "news_summary": "Nvidia faces mixed signals as the company stops H200 chip production to shift focus while trading at attractive valuations not seen in nearly a year. Regulatory headwinds emerge as the US considers requiring permits for global AI chip sales, though competition from Broadcom signals strong underlying AI market demand.",
         "positive_catalysts": [
-          "Blockbuster Q4 earnings results with raised forward guidance",
-          "Analysts confirm Nvidia remains the bellwether for AI market sentiment",
-          "Data center spending projected to surge 32% this year supporting demand",
-          "Jim Cramer characterized the after-hours dip as a 'mistake' suggesting undervaluation"
+          "NVDA stock trading at cheapest valuation in nearly a year, presenting potential buying opportunity",
+          "Strong AI market demand evidenced by Broadcom's $100B AI chip sales forecast",
+          "Broader market showing double-digit earnings growth with positive tech sector momentum"
         ],
         "negative_risks": [
-          "Muted market reaction despite strong earnings indicates elevated expectations may be difficult to meet",
-          "Wall Street now expects outsized results each quarter creating sustainability concerns",
-          "Broader tech sector weakness with SaaSpocalypse worries spreading to chips and hardware",
-          "Positive earnings results failed to impress investors suggesting potential valuation concerns"
+          "US Trump administration considering export permit requirements for Nvidia and AMD global AI chip sales",
+          "H200 chip production being stopped suggesting potential product transition uncertainty",
+          "Increased competition from Broadcom gaining market share in AI chip space dominated by Nvidia"
         ],
-        "media_tone": "Media coverage reflects cautious optimism with recognition of strong fundamentals but clear concern about whether NVDA can continue exceeding increasingly high market expectations.",
+        "media_tone": "Media coverage presents a balanced view highlighting both valuation opportunities and regulatory uncertainties, with focus on competitive dynamics in the AI chip market.",
         "sentiment_signal": "NEUTRAL",
         "sentiment_confidence": 0.65
+      },
+      "status": "success"
+    },
+    "rag": {
+      "ticker": "NVDA",
+      "filings_analyzed": 4,
+      "chunks_indexed": 141,
+      "analysis": {
+        "key_risk_factors": [
+          "Anti-takeover provisions in corporate governance that may deter hostile takeovers and delay changes in control or management",
+          "Potential limitations on stockholder ability to effect management changes",
+          "Corporate structure designed to entrench current board composition and policies"
+        ],
+        "growth_drivers": [
+          "Established insider trading compliance framework indicating mature governance structure",
+          "Formal equity compensation programs suggesting ability to attract and retain talent"
+        ],
+        "management_tone": "Management appears focused on stability and continuity through protective governance measures rather than explicitly communicating growth confidence.",
+        "competitive_position": "Insufficient data in excerpts to assess competitive moat, though governance structures suggest defensive positioning.",
+        "red_flags": [
+          "Heavy emphasis on anti-takeover provisions may signal management entrenchment concerns",
+          "Excerpts lack substantive operational or financial performance data",
+          "No clear revenue growth metrics or forward guidance provided in these sections"
+        ],
+        "positive_signals": [
+          "Robust insider trading policy framework demonstrates compliance maturity",
+          "Structured equity compensation programs indicate systematic talent retention strategy"
+        ],
+        "sec_signal": "NEUTRAL",
+        "sec_confidence": 0.3,
+        "sec_summary": "The excerpts focus heavily on governance and compliance matters rather than operational performance, making comprehensive assessment difficult. The emphasis on anti-takeover provisions and board stability suggests a defensive posture, while formal compliance frameworks indicate organizational maturity. Critical financial metrics, competitive positioning, and forward-looking statements are absent from these particular sections."
       },
       "status": "success"
     },
     "technical": {
       "ticker": "NVDA",
       "indicators": {
-        "rsi": 41.1,
+        "rsi": 46.12,
         "macd": {
-          "macd": 0.3622,
-          "signal": 0.8469,
-          "histogram": -0.4847
+          "macd": -0.7285,
+          "signal": 0.0303,
+          "histogram": -0.7588
         },
         "bollinger_bands": {
-          "upper": 198.29,
-          "middle": 185.98,
-          "lower": 173.68,
-          "position_pct": 14.27
+          "upper": 196.96,
+          "middle": 185.86,
+          "lower": 174.77,
+          "position_pct": 38.62
         },
         "moving_averages": {
-          "sma_20": 185.98,
-          "sma_50": 185.62,
-          "sma_200": 174.95,
-          "ema_20": 186.74
+          "sma_20": 185.86,
+          "sma_50": 186.12,
+          "sma_200": 175.91,
+          "ema_20": 185.28
         },
         "volume": {
-          "current": 310523200,
-          "avg_20d": 196191060,
-          "ratio": 1.58
+          "current": 190766610,
+          "avg_20d": 196215485,
+          "ratio": 0.97
         },
         "support_resistance": {
           "52w_high": 197.63,
-          "52w_low": 170.31
+          "52w_low": 171.03
         },
         "signals": [
           {
             "indicator": "RSI",
             "signal": "NEUTRAL",
-            "reason": "Neutral at 41.1"
+            "reason": "Neutral at 46.12"
           },
           {
             "indicator": "MACD",
@@ -164,63 +194,38 @@
           },
           {
             "indicator": "BBANDS",
-            "signal": "BULLISH",
-            "reason": "Price near lower band (14.27%)"
+            "signal": "NEUTRAL",
+            "reason": "Price mid-band (38.62%)"
           }
         ],
         "overall_signal": "NEUTRAL",
-        "bullish_count": 2,
+        "bullish_count": 1,
         "bearish_count": 1,
         "status": "success"
       },
       "analysis": {
-        "trend_assessment": "NVDA is trading near the middle of its 52-week range with price hovering around the SMA 20/50 convergence zone, indicating indecision and a potential inflection point.",
-        "momentum_assessment": "Momentum is weakening with RSI at 41.1 showing mild bearish pressure and MACD histogram negative at -0.4847, though not yet oversold.",
-        "support_level": 170.31,
-        "resistance_level": 197.63,
+        "trend_assessment": "NVDA is trading in a consolidation pattern below its 20-day and 50-day SMAs, indicating short-term weakness but maintaining position above the 200-day SMA at 175.91.",
+        "momentum_assessment": "Momentum indicators show bearish pressure with RSI at 46.12 in neutral territory and MACD histogram deeply negative at -0.7588, though approaching potential bottoming formation.",
+        "support_level": 175.91,
+        "resistance_level": 186.12,
         "technical_signal": "NEUTRAL",
         "technical_confidence": 0.55,
         "key_levels_to_watch": [
-          "185.62 (SMA 50)",
-          "174.95 (SMA 200)"
+          "175.91 (200-day SMA - critical support)",
+          "186.12 (50-day SMA - immediate resistance)"
         ],
-        "technical_summary": "NVDA is in a neutral consolidation phase with price compressed in the lower quarter of the Bollinger Bands at 14.27%, suggesting limited downside momentum but no clear bullish catalyst yet. The convergence of SMA 20/50 around 185-186 represents a critical decision zone, while elevated volume at 1.58x indicates active participation. A break above 186 or below 174.95 (SMA 200) would provide directional clarity."
-      },
-      "status": "success"
-    },
-    "rag": {
-      "ticker": "NVDA",
-      "filings_analyzed": 4,
-      "chunks_indexed": 141,
-      "analysis": {
-        "key_risk_factors": [
-          "Anti-takeover provisions may deter hostile takeovers and delay changes in control or management",
-          "Corporate governance structures designed to entrench existing management and discourage certain change-of-control transactions",
-          "Potential limitations on stockholder ability to effect management changes"
-        ],
-        "growth_drivers": [
-          "Established insider trading policy and compliance framework indicating mature corporate governance",
-          "Stock-based compensation plans suggesting talent retention focus"
-        ],
-        "management_tone": "Management appears focused on stability and continuity through defensive governance provisions rather than explicitly communicating growth confidence.",
-        "competitive_position": "Insufficient information in excerpts to assess competitive moat, though governance structures suggest management prioritizes protecting existing market position.",
-        "red_flags": [
-          "Heavy emphasis on anti-takeover provisions and management entrenchment mechanisms",
-          "Excerpts lack substantive operational or financial disclosure",
-          "No clear revenue growth metrics or forward guidance provided in these sections"
-        ],
-        "positive_signals": [
-          "Comprehensive insider trading policy demonstrates regulatory compliance commitment",
-          "Employee equity compensation structure indicates investment in talent retention"
-        ],
-        "sec_signal": "NEUTRAL",
-        "sec_confidence": 0.35,
-        "sec_summary": "The excerpts provide limited operational insight, focusing primarily on corporate governance and anti-takeover provisions. While robust compliance frameworks are evident, the lack of financial metrics, revenue data, or competitive positioning information prevents meaningful bullish or bearish assessment. The defensive governance posture neither confirms nor denies underlying business strength."
+        "technical_summary": "NVDA is caught in a neutral technical setup with the stock positioned in the lower half of its Bollinger Band range at 38.62%. While the MACD shows bearish divergence and short-term moving averages are acting as resistance, the stock remains above its 200-day SMA support, preventing a more definitively bearish outlook. A break above 186.12 or below 175.91 would provide clearer directional conviction."
       },
       "status": "success"
     }
   },
-  "elapsed_seconds": 59.3,
-  "errors": [],
-  "status": "success"
+  "elapsed_seconds": 38.0,
+  "errors": {},
+  "status": "success",
+  "from_cache": false,
+  "user_profile": {
+    "experience": "beginner",
+    "goal": "grow_savings",
+    "risk_tolerance": "low"
+  }
 }
